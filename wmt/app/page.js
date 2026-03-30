@@ -190,6 +190,53 @@ function VerticalRow({ color, name, desc }) {
   );
 }
 
+function PriceCard({ num, title, tag, color, accent, accentSoft, rows, total }) {
+  const iconColors = {
+    blue: { bg: T.accentSoft, color: T.accent, border: T.accentBorder },
+    gold: { bg: T.goldSoft, color: T.gold, border: T.goldBorder },
+    green: { bg: T.greenSoft, color: T.green, border: T.greenBorder },
+    purple: { bg: T.purpleSoft, color: T.purple, border: T.purpleBorder },
+  };
+  const ic = iconColors[color] || iconColors.blue;
+  return (
+    <div style={{ margin: "40px 0", border: `1px solid ${T.rule}`, borderRadius: 8, overflow: "hidden", background: T.surface }}>
+      <div className="off-header" style={{ padding: "22px 28px", borderBottom: `1px solid ${T.rule}`, display: "flex", alignItems: "center", gap: 14 }}>
+        <div style={{ width: 38, height: 38, borderRadius: 6, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: T.mono, fontSize: 11, fontWeight: 600, background: ic.bg, color: ic.color, border: `1px solid ${ic.border}`, flexShrink: 0 }}>{num}</div>
+        <h4 style={{ fontFamily: T.display, fontSize: 21, fontWeight: 600, margin: 0, flex: 1 }}>{title}</h4>
+        <span style={{ ...S.mono9, color: T.mid }}>{tag}</span>
+      </div>
+      <div className="price-table-wrap" style={{ overflowX: "auto" }}>
+        <table style={{ width: "100%", borderCollapse: "collapse", minWidth: 600 }}>
+          <thead>
+            <tr style={{ background: accentSoft }}>
+              <th style={{ padding: "11px 18px", textAlign: "left", fontFamily: T.mono, fontSize: 10, fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: accent }}>Deliverable</th>
+              <th className="price-desc-col" style={{ padding: "11px 18px", textAlign: "left", fontFamily: T.mono, fontSize: 10, fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: accent }}>Description</th>
+              <th style={{ padding: "11px 18px", textAlign: "right", fontFamily: T.mono, fontSize: 10, fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: accent, whiteSpace: "nowrap" }}>Market Rate</th>
+              <th style={{ padding: "11px 18px", textAlign: "right", fontFamily: T.mono, fontSize: 10, fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: accent, whiteSpace: "nowrap" }}>WMT Rate</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map(([name, desc, market, wmt], i) => (
+              <tr key={name} style={{ borderTop: `1px solid ${T.ruleLight}`, background: i % 2 === 1 ? "rgba(0,0,0,0.02)" : "transparent" }}>
+                <td style={{ padding: "12px 18px", fontSize: 13, fontWeight: 500, color: T.ink, lineHeight: 1.4 }}>{name}</td>
+                <td className="price-desc-col" style={{ padding: "12px 18px", fontSize: 12.5, color: T.inkSoft, lineHeight: 1.55, maxWidth: 280 }}>{desc}</td>
+                <td style={{ padding: "12px 18px", fontFamily: T.mono, fontSize: 11, color: T.inkDim, textAlign: "right", whiteSpace: "nowrap" }}>{market}</td>
+                <td style={{ padding: "12px 18px", fontFamily: T.mono, fontSize: 11, fontWeight: 600, color: T.ink, textAlign: "right", whiteSpace: "nowrap" }}>{wmt}</td>
+              </tr>
+            ))}
+            <tr style={{ borderTop: `2px solid ${T.rule}`, background: T.surfaceAlt }}>
+              <td style={{ padding: "14px 18px", fontSize: 14, fontWeight: 700, color: T.ink }}>{total[0]}</td>
+              <td className="price-desc-col" style={{ padding: "14px 18px", fontSize: 12, color: T.inkSoft, fontWeight: 500 }}>{total[1]}</td>
+              <td style={{ padding: "14px 18px", fontFamily: T.mono, fontSize: 12, color: T.inkDim, textAlign: "right", fontWeight: 500, whiteSpace: "nowrap" }}>{total[2]}</td>
+              <td style={{ padding: "14px 18px", fontFamily: T.mono, fontSize: 12, fontWeight: 700, color: accent, textAlign: "right", whiteSpace: "nowrap" }}>{total[3]}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
+
 /* ── Deliverables Data ── */
 const D1 = [
   { title: "Stakeholder Interview Program", desc: "8-12 structured interviews across leadership, operators, athletes/talent, alumni, coaches, fans. Surfaces where perspectives converge and conflict so the brand builds on truth, not assumption." },
@@ -242,7 +289,7 @@ export default function Page() {
 
   return (
     <div style={{ fontFamily: T.body, color: T.ink, background: T.bg, minHeight: "100vh" }}>
-      <style>{`*{box-sizing:border-box;margin:0;padding:0}body{background:${T.bg};color:${T.ink};font-family:${T.body};-webkit-font-smoothing:antialiased}@keyframes fadeIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}@media(max-width:768px){.cover-inner{padding:48px 24px !important}.cover-meta-row{flex-direction:column !important;gap:16px !important}.doc-inner{padding:48px 20px 80px !important}.dlv-grid-2{grid-template-columns:1fr !important}.pull-grid-2{grid-template-columns:1fr !important}.flow-row{flex-direction:column !important}.flow-arrow{transform:rotate(90deg) !important;width:auto !important;height:20px !important}.econ-grid-3{grid-template-columns:1fr !important}.off-header{flex-direction:column !important;align-items:flex-start !important;gap:8px !important}.sum-pull-4{grid-template-columns:1fr 1fr !important}.tab-bar-inner{gap:20px !important;padding:0 20px !important}}`}</style>
+      <style>{`*{box-sizing:border-box;margin:0;padding:0}body{background:${T.bg};color:${T.ink};font-family:${T.body};-webkit-font-smoothing:antialiased}@keyframes fadeIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}@media(max-width:768px){.cover-inner{padding:48px 24px !important}.cover-meta-row{flex-direction:column !important;gap:16px !important}.doc-inner{padding:48px 20px 80px !important}.dlv-grid-2{grid-template-columns:1fr !important}.pull-grid-2{grid-template-columns:1fr !important}.flow-row{flex-direction:column !important}.flow-arrow{transform:rotate(90deg) !important;width:auto !important;height:20px !important}.econ-grid-3{grid-template-columns:1fr !important}.off-header{flex-direction:column !important;align-items:flex-start !important;gap:8px !important}.sum-pull-4{grid-template-columns:1fr 1fr !important}.tab-bar-inner{gap:20px !important;padding:0 20px !important}.price-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}.price-desc-col{display:none !important}.sum-grid-3{grid-template-columns:1fr !important}}`}</style>
 
       {/* ═══ COVER ═══ */}
       <div style={{ background: T.deep, minHeight: "calc(100vh - 56px)", display: "flex", flexDirection: "column", justifyContent: "center", position: "relative", overflow: "hidden" }}>
@@ -276,7 +323,7 @@ export default function Page() {
       {/* ═══ TAB BAR ═══ */}
       <div style={{ display: "flex", justifyContent: "center", background: T.surface, borderBottom: `1px solid ${T.rule}`, position: "sticky", top: 0, zIndex: 100 }}>
         <div className="tab-bar-inner" style={{ display: "flex", gap: 40, padding: "0 48px" }}>
-          {[["summary", "Summary"], ["full", "Full Build"]].map(([key, label]) => (
+          {[["summary", "Summary"], ["full", "Full Build"], ["pricing", "Pricing"]].map(([key, label]) => (
             <button
               key={key}
               onClick={() => setTab(key)}
@@ -445,6 +492,112 @@ export default function Page() {
               <EconCard value="1" label="Direct Revenue" desc="Discovery and strategic services are paid engagements. Partners invest because the output is intrinsically valuable. A strategic asset they receive and keep." />
               <EconCard value="2" label="Product Pull-Through" desc="Every PS engagement surfaces implementation needs that map to QuantOS, FanOS, RevOS, and StoryOS. The partner who starts with discovery arrives at platform conversations better informed, higher conviction, and faster to close." />
               <EconCard value="3" label="Competitive Moat" desc="Institutional knowledge doesn't transfer. Switching means starting from zero. The longer and deeper the relationship, the harder WMT is to replace." />
+            </div>
+          </div>
+          <div style={{ maxWidth: 900, margin: "0 auto", padding: "28px 48px", display: "flex", justifyContent: "space-between", borderTop: `1px solid ${T.rule}`, fontFamily: T.mono, fontSize: 10, letterSpacing: "0.10em", color: T.mid }}>
+            <span>Chris Gray Strategy &middot; March 2026</span>
+            <span>WMT Internal &middot; Not for Distribution</span>
+          </div>
+        </div>
+      )}
+
+      {/* ═══════════ PRICING TAB ═══════════ */}
+      {tab === "pricing" && (
+        <div style={{ animation: "fadeIn 0.3s ease" }}>
+          <div className="doc-inner" style={{ maxWidth: 900, margin: "0 auto", padding: "72px 48px 100px" }}>
+            <SecHead num="The Menu" title="What It" em="Costs" />
+            <P>Every deliverable in the professional services practice is individually priced. Partners select what they need. The methodology is consistent. The investment scales with scope.</P>
+            <P>Market rates reflect 2025-2026 industry benchmarks for equivalent services from enterprise agencies, brand consultancies, and specialized firms. WMT rates reflect the competitive advantage of an embedded strategic services model: AI-assisted methodology, no agency overhead, and integrated delivery within the WMT ecosystem.</P>
+
+            <PriceCard num="01" title="Strategic Discovery" tag="Foundation" color="blue" accent={T.accent} accentSoft={T.accentSoft} rows={[
+              ["Stakeholder Interview Program","6-10 structured interviews with leadership, staff, partners","$15,000-$25,000","$8,000-$12,000"],
+              ["Competitive Whitespace Mapping","Market positioning analysis, gap identification, opportunity framework","$10,000-$20,000","$6,000-$10,000"],
+              ["Brand Bridge & Value Equation","Core positioning framework connecting brand identity to market value","$15,000-$30,000","$8,000-$15,000"],
+              ["Shared Belief Development","Unifying organizational narrative and belief system","$10,000-$20,000","$5,000-$10,000"],
+              ["Cultural & Market Trend Analysis","Industry landscape, consumer behavior, market dynamics","$8,000-$15,000","$5,000-$8,000"],
+              ["Organizational Capacity Assessment","Team structure, workflow, resource audit against objectives","$8,000-$12,000","$4,000-$7,000"],
+              ["Customer/Fan Journey Documentation","Full-lifecycle touchpoint mapping from awareness to advocacy","$10,000-$20,000","$6,000-$10,000"],
+              ["Individual Discovery Sessions","1:1 deep-dive sessions with key stakeholders or athletes","$3,000-$5,000 ea","$2,000-$3,000 ea"],
+            ]} total={["Full Suite Total","All 8 deliverables","$79K-$147K","$44K-$75K"]} />
+
+            <PriceCard num="02" title="SEO & AEO Strategy" tag="Visibility" color="gold" accent={T.gold} accentSoft={T.goldSoft} rows={[
+              ["Full-Property SEO Health Audit","Technical audit, crawl analysis, indexing, site architecture","$10,000-$25,000","$6,000-$12,000"],
+              ["High-Value Page ID & Optimization","Priority page analysis with optimization roadmap","$8,000-$15,000","$5,000-$8,000"],
+              ["Competitive Keyword & Search Landscape","Full keyword universe mapping, competitor gap analysis","$8,000-$15,000","$5,000-$8,000"],
+              ["Schema & Structured Data Architecture","JSON-LD schema strategy, implementation roadmap, rich result targeting","$8,000-$15,000","$5,000-$8,000"],
+              ["AI Search Readiness Assessment","AEO strategy for ChatGPT, Perplexity, Google AI Overviews","$10,000-$20,000","$6,000-$10,000"],
+              ["Search-Informed Content Architecture","Content structure mapped to search intent and topic clusters","$8,000-$15,000","$5,000-$8,000"],
+              ["Brand Search Protection & Ownership","Branded query defense, secondary market mitigation","$5,000-$12,000","$3,000-$6,000"],
+              ["On-Page SEO & Copy Audit","Title tags, meta descriptions, heading structure, internal linking","$5,000-$10,000","$3,000-$6,000"],
+            ]} total={["Full Suite Total","All 8 deliverables","$62K-$127K","$38K-$66K"]} />
+
+            <PriceCard num="03" title="Content Strategy & Editorial" tag="Voice" color="green" accent={T.green} accentSoft={T.greenSoft} rows={[
+              ["Brand Voice & Style Guide","Comprehensive voice framework, tone parameters, usage guidelines","$15,000-$25,000","$8,000-$12,000"],
+              ["Content Vertical Strategy","Define content pillars, topics, themes by audience and channel","$8,000-$15,000","$5,000-$8,000"],
+              ["Evergreen Editorial Calendar","12-month content calendar with cadence, ownership, seasonal mapping","$5,000-$10,000","$3,000-$6,000"],
+              ["Scalable Content Production Model","Workflow design, roles, approval chain, production cadence","$10,000-$20,000","$6,000-$10,000"],
+              ["AI Content Production Frameworks","AI-assisted production system with quality control and brand calibration","$10,000-$25,000","$6,000-$12,000"],
+              ["Content Hub & Page Architecture","Site structure for content hubs, topic clusters, internal linking","$8,000-$15,000","$5,000-$8,000"],
+              ["Multi-Platform Content Adaptation","Repurposing frameworks across web, social, email, in-venue","$5,000-$10,000","$3,000-$6,000"],
+              ["Audience-Specific Content Frameworks","Persona-driven content models for distinct audience segments","$8,000-$15,000","$5,000-$8,000"],
+            ]} total={["Full Suite Total","All 8 deliverables","$69K-$135K","$41K-$70K"]} />
+
+            <PriceCard num="04" title="Digital Strategy & Advisory" tag="Direction" color="purple" accent={T.purple} accentSoft={T.purpleSoft} rows={[
+              ["Digital Ecosystem Assessment","Full-stack audit of digital properties, tools, platforms, integrations","$15,000-$30,000","$8,000-$15,000"],
+              ["Customer/Fan Engagement Strategy","Engagement model across digital touchpoints, loyalty, retention","$10,000-$25,000","$6,000-$12,000"],
+              ["Revenue & Monetization Roadmap","Digital revenue strategy tied to tickets, sponsorships, merchandise, content","$15,000-$30,000","$8,000-$15,000"],
+              ["Technology Stack Advisory","Platform evaluation, integration strategy, build vs. buy analysis","$10,000-$25,000","$6,000-$12,000"],
+              ["D2C & Streaming Strategy","Direct-to-consumer content delivery, OTT, membership models","$15,000-$30,000","$8,000-$15,000"],
+              ["Data & Intelligence Strategy","First-party data architecture, analytics framework, insight activation","$15,000-$30,000","$8,000-$15,000"],
+              ["AI Integration Assessment","AI readiness audit, use case mapping, implementation roadmap","$10,000-$25,000","$6,000-$12,000"],
+              ["Digital Transformation Roadmap","Multi-year digital strategy with phasing, priorities, investment model","$20,000-$50,000","$10,000-$25,000"],
+            ]} total={["Full Suite Total","All 8 deliverables","$110K-$245K","$60K-$121K"]} />
+
+            <SecHead num="The Total Picture" title="Full Practice" em="Economics" />
+
+            <div style={{ margin: "32px 0", border: `1px solid ${T.rule}`, borderRadius: 8, overflow: "hidden", background: T.surface }}>
+              <table style={{ width: "100%", borderCollapse: "collapse" }}>
+                <thead>
+                  <tr style={{ background: T.accentSoft }}>
+                    {["Vertical","Market Rate","WMT Rate"].map(h=><th key={h} style={{ padding: "12px 18px", textAlign: "left", fontFamily: T.mono, fontSize: 10, fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: T.accent }}>{h}</th>)}
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ["01: Strategic Discovery","$79K-$147K","$44K-$75K",T.accent],
+                    ["02: SEO & AEO Strategy","$62K-$127K","$38K-$66K",T.gold],
+                    ["03: Content Strategy & Editorial","$69K-$135K","$41K-$70K",T.green],
+                    ["04: Digital Strategy & Advisory","$110K-$245K","$60K-$121K",T.purple],
+                  ].map(([v,m,w,c],i)=>(
+                    <tr key={v} style={{ borderTop: `1px solid ${T.ruleLight}`, background: i%2===1?"rgba(0,0,0,0.02)":"transparent" }}>
+                      <td style={{ padding: "14px 18px", fontSize: 14, fontWeight: 500, color: T.ink }}><span style={{ color: c, fontFamily: T.mono, fontSize: 11, marginRight: 8 }}>{v.slice(0,2)}</span>{v.slice(4)}</td>
+                      <td style={{ padding: "14px 18px", fontFamily: T.mono, fontSize: 12, color: T.inkDim }}>{m}</td>
+                      <td style={{ padding: "14px 18px", fontFamily: T.mono, fontSize: 12, fontWeight: 600, color: T.ink }}>{w}</td>
+                    </tr>
+                  ))}
+                  <tr style={{ borderTop: `2px solid ${T.rule}`, background: T.surfaceAlt }}>
+                    <td style={{ padding: "16px 18px", fontSize: 15, fontWeight: 700, color: T.ink }}>All 32 Deliverables</td>
+                    <td style={{ padding: "16px 18px", fontFamily: T.mono, fontSize: 13, color: T.inkDim, fontWeight: 500 }}>$320K-$654K</td>
+                    <td style={{ padding: "16px 18px", fontFamily: T.mono, fontSize: 13, fontWeight: 700, color: T.accent }}>$183K-$332K</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <Callout>
+              <p style={{ fontSize: 15, lineHeight: 1.72, color: T.ink, margin: 0 }}>At the WMT Rate, a single partner engaging two full verticals generates <strong>$82K-$141K</strong> in professional services revenue before any platform pull-through to QuantOS, FanOS, RevOS, or StoryOS.</p>
+            </Callout>
+            <Callout>
+              <p style={{ fontSize: 15, lineHeight: 1.72, color: T.ink, margin: 0 }}>Three partners at similar scope: <strong>$246K-$423K annually</strong> in professional services revenue alone. The practice pays for itself while creating demand for every product WMT already sells.</p>
+            </Callout>
+
+            <SecHead num="Notes" title="How to Read" em="This Menu" />
+            <div style={{ margin: "24px 0 0", fontSize: 15, lineHeight: 1.85, color: T.ink, maxWidth: 740 }}>
+              <p style={{ margin: "0 0 14px" }}><strong>Market Rate:</strong> What a partner would pay an external agency or consultancy for this deliverable in isolation.</p>
+              <p style={{ margin: "0 0 14px" }}><strong>WMT Rate:</strong> The competitive rate enabled by the embedded strategic services model. Represents 40-55% of open market pricing.</p>
+              <p style={{ margin: "0 0 14px" }}>Deliverables are modular. Partners select what they need. Full vertical suites offer the most value.</p>
+              <p style={{ margin: "0 0 14px" }}>Pricing is per-partner, per-engagement. Multi-partner retainer arrangements are separate.</p>
+              <p style={{ margin: 0 }}>WMT markup, project management, design support, and platform implementation fees are additional and scoped by WMT.</p>
             </div>
           </div>
           <div style={{ maxWidth: 900, margin: "0 auto", padding: "28px 48px", display: "flex", justifyContent: "space-between", borderTop: `1px solid ${T.rule}`, fontFamily: T.mono, fontSize: 10, letterSpacing: "0.10em", color: T.mid }}>
