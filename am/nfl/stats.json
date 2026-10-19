@@ -1,0 +1,559 @@
+{
+  "verifiedDate": "2026-10-19",
+  "season": 2026,
+  "scope": "Verified subset. Season totals reflect the last game shown on each official page, not an assumed complete Week 6 feed. Null means unpublished or unverified, never zero. Do not label subset rankings all-Aggie leaders.",
+  "players": [
+    {
+      "name": "Mike Evans",
+      "team": "SF",
+      "throughWeek": 5,
+      "games": 5,
+      "stats": {
+        "receptions": 24,
+        "receivingYards": 326,
+        "receivingTouchdowns": 3
+      },
+      "weekly": [
+        {
+          "week": 5,
+          "opponent": "SEA",
+          "away": true,
+          "receptions": 7,
+          "receivingYards": 113,
+          "receivingTouchdowns": 1
+        }
+      ],
+      "sources": [
+        "https://www.nfl.com/players/mike-evans/stats/",
+        "https://www.49ers.com/team/players-roster/mike-evans/"
+      ],
+      "note": "Week 6 Monday game still scheduled in official schedule."
+    },
+    {
+      "name": "De'Von Achane",
+      "team": "MIA",
+      "throughWeek": 3,
+      "games": 3,
+      "stats": {
+        "rushAttempts": 34,
+        "rushingYards": 127,
+        "rushingTouchdowns": 0,
+        "receptions": 7,
+        "receivingYards": 49,
+        "receivingTouchdowns": 0
+      },
+      "weekly": [
+        {
+          "week": 3,
+          "opponent": "KC",
+          "away": false,
+          "rushAttempts": 3,
+          "rushingYards": 17,
+          "rushingTouchdowns": 0,
+          "receptions": 0,
+          "receivingYards": 0,
+          "receivingTouchdowns": 0
+        }
+      ],
+      "sources": [
+        "https://www.nfl.com/players/devon-achane/stats/",
+        "https://www.miamidolphins.com/team/players-roster/devon-achane/"
+      ],
+      "note": "Only weeks 1-3 appear. Injury news on alternate NFL profile reports season-ending ACL; roster status must be confirmed on team roster."
+    },
+    {
+      "name": "Edgerrin Cooper",
+      "team": "GB",
+      "throughWeek": 4,
+      "games": 4,
+      "stats": {
+        "combinedTackles": 30,
+        "soloTackles": 15,
+        "sacks": 3,
+        "interceptions": 1,
+        "forcedFumbles": 0
+      },
+      "weekly": [
+        {
+          "week": 4,
+          "opponent": "TB",
+          "away": true,
+          "combinedTackles": 9,
+          "sacks": 1,
+          "interceptions": 1
+        }
+      ],
+      "sources": [
+        "https://www.nfl.com/players/edgerrin-cooper/stats/",
+        "https://www.packers.com/team/players-roster/edgerrin-cooper/"
+      ],
+      "note": "Official Packers profile links injured-reserve announcement; stats page stops at Week 4."
+    },
+    {
+      "name": "Braden Mann",
+      "team": "PHI",
+      "throughWeek": 6,
+      "games": 6,
+      "stats": {
+        "punts": 33,
+        "puntingYards": 1574,
+        "netPuntingYards": 1379,
+        "puntingAverage": 47.7,
+        "netPuntingAverage": 41.8,
+        "longestPunt": 65,
+        "inside20": 14
+      },
+      "weekly": [
+        {
+          "week": 6,
+          "opponent": "CAR",
+          "away": false,
+          "punts": 8,
+          "puntingYards": 340,
+          "netPuntingYards": 283,
+          "longestPunt": 65,
+          "puntingAverage": 42.5,
+          "netPuntingAverage": 35.4,
+          "inside20": 2
+        }
+      ],
+      "sources": [
+        "https://www.philadelphiaeagles.com/team/players-roster/braden-mann/",
+        "https://www.nfl.com/players/braden-mann/stats/"
+      ],
+      "note": "Team page through W6 preferred; NFL page stale through W4."
+    },
+    {
+      "name": "KC Concepcion",
+      "team": "CLE",
+      "throughWeek": 6,
+      "games": 6,
+      "stats": {
+        "receptions": 22,
+        "receivingYards": 186,
+        "receivingTouchdowns": 0,
+        "rushAttempts": 6,
+        "rushingYards": 11,
+        "rushingTouchdowns": 0
+      },
+      "weekly": [
+        {
+          "week": 6,
+          "opponent": "BAL",
+          "away": false,
+          "receptions": 4,
+          "receivingYards": 37,
+          "receivingTouchdowns": 0,
+          "rushAttempts": 2,
+          "rushingYards": 2,
+          "rushingTouchdowns": 0
+        }
+      ],
+      "sources": [
+        "https://www.nfl.com/players/kc-concepcion/stats/",
+        "https://www.clevelandbrowns.com/team/players-roster/kc-concepcion/"
+      ]
+    },
+    {
+      "name": "Cashius Howell",
+      "team": "CIN",
+      "throughWeek": 5,
+      "games": 5,
+      "stats": {
+        "combinedTackles": 3,
+        "soloTackles": 1,
+        "sacks": 0,
+        "forcedFumbles": 0,
+        "interceptions": null
+      },
+      "weekly": [
+        {
+          "week": 5,
+          "opponent": "MIA",
+          "away": true,
+          "combinedTackles": 1,
+          "soloTackles": 0,
+          "sacks": 0
+        }
+      ],
+      "sources": [
+        "https://www.nfl.com/players/cashius-howell/stats/",
+        "https://www.bengals.com/team/players-roster/cashius-howell/"
+      ],
+      "note": "Bengals Week 6 bye confirmed by team profile linked bye-week article."
+    },
+    {
+      "name": "Von Miller",
+      "team": "DAL",
+      "throughWeek": 6,
+      "games": 6,
+      "stats": {
+        "combinedTackles": 3,
+        "soloTackles": 2,
+        "sacks": 0,
+        "forcedFumbles": 0,
+        "interceptions": null
+      },
+      "weekly": [
+        {
+          "week": 6,
+          "opponent": "GB",
+          "away": true,
+          "combinedTackles": 1,
+          "soloTackles": 1,
+          "sacks": 0
+        }
+      ],
+      "sources": [
+        "https://www.nfl.com/players/Von-Miller/stats/",
+        "https://www.dallascowboys.com/team/players-roster/von-miller/"
+      ],
+      "note": "Lowercase NFL URL returned older snapshot. Team page and uppercase NFL URL agree through W6."
+    },
+    {
+      "name": "Nnamdi Madubuike",
+      "alias": "Justin Madubuike",
+      "team": "BAL",
+      "throughWeek": 5,
+      "games": 3,
+      "stats": {
+        "combinedTackles": 9,
+        "soloTackles": 5,
+        "sacks": 0,
+        "forcedFumbles": 0,
+        "interceptions": null
+      },
+      "weekly": [
+        {
+          "week": 5,
+          "opponent": "ATL",
+          "away": true,
+          "combinedTackles": 2,
+          "sacks": 0
+        }
+      ],
+      "sources": [
+        "https://www.nfl.com/players/nnamdi-madubuike/stats/"
+      ],
+      "note": "NFL page latest shown week 5; Week 6 not verified; do not treat three games as five appearances."
+    },
+    {
+      "name": "Myles Garrett",
+      "team": "LAR",
+      "throughWeek": 1,
+      "games": 1,
+      "stats": {
+        "combinedTackles": null,
+        "soloTackles": null,
+        "sacks": null
+      },
+      "weekly": [],
+      "sources": [
+        "https://www.nfl.com/players/myles-garrett/stats/",
+        "https://www.therams.com/team/players-roster/"
+      ],
+      "note": "Rams roster explicitly Reserve/Injured. NFL 2026 defensive cells blank; withheld, not converted to zero."
+    },
+    {
+      "name": "Christian Kirk",
+      "team": "SF",
+      "throughWeek": null,
+      "games": null,
+      "stats": null,
+      "weekly": [],
+      "sources": [
+        "https://www.nfl.com/players/christian-kirk/stats/",
+        "https://www.49ers.com/team/players-roster/christian-kirk/",
+        "https://www.nfl.com/teams/san-francisco-49ers/roster"
+      ],
+      "note": "NFL page has no 2026 row or recent games. No current-season statistics verified. Team affiliation SF verified independently; NFL roster status RSR requires team reserve-category confirmation."
+    },
+    {
+      "name": "Tyrel Dodson",
+      "team": "CAR",
+      "throughWeek": 4,
+      "games": 2,
+      "stats": {
+        "combinedTackles": 7,
+        "soloTackles": 1,
+        "sacks": 0,
+        "forcedFumbles": 0,
+        "interceptions": null
+      },
+      "weekly": [
+        {
+          "week": 4,
+          "opponent": "DET",
+          "away": false,
+          "combinedTackles": 1,
+          "soloTackles": 0,
+          "sacks": 0
+        }
+      ],
+      "sources": [
+        "https://www.nfl.com/players/tyrel-dodson/stats/"
+      ],
+      "note": "Official NFL data ends at W4; three game-log rows with only two games in season row. Do not assume W6 currency."
+    }
+  ],
+  "scheduleSources": {
+    "6": "https://www.nfl.com/schedules/2026/by-week/week-6",
+    "7": "https://www.nfl.com/schedules/2026/by-week/week-7"
+  },
+  "games": [
+    {
+      "week": 6,
+      "date": "2026-10-15",
+      "away": "SEA",
+      "home": "DEN",
+      "awayScore": 14,
+      "homeScore": 17,
+      "status": "Final"
+    },
+    {
+      "week": 6,
+      "date": "2026-10-18",
+      "away": "HOU",
+      "home": "JAX",
+      "awayScore": 34,
+      "homeScore": 31,
+      "status": "Final",
+      "note": "London"
+    },
+    {
+      "week": 6,
+      "date": "2026-10-18",
+      "away": "CHI",
+      "home": "ATL",
+      "awayScore": 31,
+      "homeScore": 23,
+      "status": "Final"
+    },
+    {
+      "week": 6,
+      "date": "2026-10-18",
+      "away": "BAL",
+      "home": "CLE",
+      "awayScore": 10,
+      "homeScore": 13,
+      "status": "Final"
+    },
+    {
+      "week": 6,
+      "date": "2026-10-18",
+      "away": "TEN",
+      "home": "IND",
+      "awayScore": 26,
+      "homeScore": 20,
+      "status": "Final"
+    },
+    {
+      "week": 6,
+      "date": "2026-10-18",
+      "away": "NYJ",
+      "home": "NE",
+      "awayScore": 19,
+      "homeScore": 26,
+      "status": "Final"
+    },
+    {
+      "week": 6,
+      "date": "2026-10-18",
+      "away": "NO",
+      "home": "NYG",
+      "awayScore": 34,
+      "homeScore": 27,
+      "status": "Final"
+    },
+    {
+      "week": 6,
+      "date": "2026-10-18",
+      "away": "CAR",
+      "home": "PHI",
+      "awayScore": 25,
+      "homeScore": 14,
+      "status": "Final"
+    },
+    {
+      "week": 6,
+      "date": "2026-10-18",
+      "away": "PIT",
+      "home": "TB",
+      "awayScore": 26,
+      "homeScore": 19,
+      "status": "Final"
+    },
+    {
+      "week": 6,
+      "date": "2026-10-18",
+      "away": "ARI",
+      "home": "LAR",
+      "awayScore": 18,
+      "homeScore": 16,
+      "status": "Final"
+    },
+    {
+      "week": 6,
+      "date": "2026-10-18",
+      "away": "LAC",
+      "home": "KC",
+      "awayScore": 6,
+      "homeScore": 22,
+      "status": "Final"
+    },
+    {
+      "week": 6,
+      "date": "2026-10-18",
+      "away": "BUF",
+      "home": "LV",
+      "awayScore": 33,
+      "homeScore": 30,
+      "status": "Final"
+    },
+    {
+      "week": 6,
+      "date": "2026-10-18",
+      "away": "DAL",
+      "home": "GB",
+      "awayScore": 13,
+      "homeScore": 23,
+      "status": "Final"
+    },
+    {
+      "week": 6,
+      "date": "2026-10-19",
+      "away": "WAS",
+      "home": "SF",
+      "kickoffET": "20:15",
+      "status": "Scheduled",
+      "network": "ESPN"
+    },
+    {
+      "week": 7,
+      "date": "2026-10-22",
+      "away": "NE",
+      "home": "CHI",
+      "kickoffET": "20:15",
+      "status": "Scheduled",
+      "network": "Prime Video"
+    },
+    {
+      "week": 7,
+      "date": "2026-10-25",
+      "away": "PIT",
+      "home": "NO",
+      "kickoffET": "09:30",
+      "status": "Scheduled",
+      "network": "NFL Network",
+      "note": "Saint-Denis"
+    },
+    {
+      "week": 7,
+      "date": "2026-10-25",
+      "away": "SF",
+      "home": "ATL",
+      "kickoffET": "13:00",
+      "status": "Scheduled",
+      "network": "FOX"
+    },
+    {
+      "week": 7,
+      "date": "2026-10-25",
+      "away": "CIN",
+      "home": "BAL",
+      "kickoffET": "13:00",
+      "status": "Scheduled",
+      "network": "CBS"
+    },
+    {
+      "week": 7,
+      "date": "2026-10-25",
+      "away": "TB",
+      "home": "CAR",
+      "kickoffET": "13:00",
+      "status": "Scheduled",
+      "network": "FOX"
+    },
+    {
+      "week": 7,
+      "date": "2026-10-25",
+      "away": "NYG",
+      "home": "HOU",
+      "kickoffET": "13:00",
+      "status": "Scheduled",
+      "network": "FOX"
+    },
+    {
+      "week": 7,
+      "date": "2026-10-25",
+      "away": "IND",
+      "home": "MIN",
+      "kickoffET": "13:00",
+      "status": "Scheduled",
+      "network": "CBS"
+    },
+    {
+      "week": 7,
+      "date": "2026-10-25",
+      "away": "MIA",
+      "home": "NYJ",
+      "kickoffET": "13:00",
+      "status": "Scheduled",
+      "network": "CBS"
+    },
+    {
+      "week": 7,
+      "date": "2026-10-25",
+      "away": "CLE",
+      "home": "TEN",
+      "kickoffET": "13:00",
+      "status": "Scheduled",
+      "network": "CBS"
+    },
+    {
+      "week": 7,
+      "date": "2026-10-25",
+      "away": "DEN",
+      "home": "ARI",
+      "kickoffET": "16:05",
+      "status": "Scheduled",
+      "network": "CBS"
+    },
+    {
+      "week": 7,
+      "date": "2026-10-25",
+      "away": "GB",
+      "home": "DET",
+      "kickoffET": "16:25",
+      "status": "Scheduled",
+      "network": "FOX"
+    },
+    {
+      "week": 7,
+      "date": "2026-10-25",
+      "away": "LAR",
+      "home": "LV",
+      "kickoffET": "16:25",
+      "status": "Scheduled",
+      "network": "FOX"
+    },
+    {
+      "week": 7,
+      "date": "2026-10-25",
+      "away": "KC",
+      "home": "SEA",
+      "kickoffET": "20:20",
+      "status": "Scheduled",
+      "network": "NBC"
+    },
+    {
+      "week": 7,
+      "date": "2026-10-26",
+      "away": "DAL",
+      "home": "PHI",
+      "kickoffET": "20:15",
+      "status": "Scheduled",
+      "network": "ESPN"
+    }
+  ]
+}

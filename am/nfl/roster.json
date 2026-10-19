@@ -1,0 +1,2099 @@
+{
+  "asOf": "2026-10-19",
+  "scope": "40 Texas A&M directory entries, five additional transfer alumni, and two NFL-labeled free agents. Team status comes from official roster categories, not a separately reconciled 53-man list. Historical free-agent and transfer coverage remains incomplete.",
+  "methodology": [
+    "Directory identifies candidates and A&M years. Current team roster overrides stale directory statuses.",
+    "NFL generic active badge does not establish 53-man status. Temporary gameday elevations remain distinct from permanent signing.",
+    "No statistics inferred; no absent player automatically classified as free agent."
+  ],
+  "players": [
+    {
+      "id": "devon-achane",
+      "name": "De’Von Achane",
+      "team": "Miami Dolphins",
+      "position": "RB",
+      "jersey": 28,
+      "amYears": "2020-22",
+      "rosterStatus": "reserve",
+      "statusDetail": "Reserve/Injured",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Miami Dolphins",
+        "position": "RB",
+        "jersey": 28,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Miami Dolphins official roster",
+          "url": "https://www.miamidolphins.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": "Official current team roster differs from October 14 A&M directory; team roster takes precedence."
+    },
+    {
+      "id": "chase-bisontis",
+      "name": "Chase Bisontis",
+      "team": "Arizona Cardinals",
+      "position": "OL",
+      "jersey": 57,
+      "amYears": "2023-25",
+      "rosterStatus": "reserve",
+      "statusDetail": "Reserve/Injured",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Arizona Cardinals",
+        "position": "OL",
+        "jersey": 57,
+        "rosterStatus": "reserve"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Arizona Cardinals official roster",
+          "url": "https://www.azcardinals.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "nate-boerkircher",
+      "name": "Nate Boerkircher",
+      "team": "Jacksonville Jaguars",
+      "position": "TE",
+      "jersey": 87,
+      "amYears": "2025",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Jacksonville Jaguars",
+        "position": "TE",
+        "jersey": 87,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Jacksonville Jaguars official roster",
+          "url": "https://www.jaguars.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "bobby-brown-iii",
+      "name": "Bobby Brown III",
+      "team": "Carolina Panthers",
+      "position": "DL",
+      "jersey": 97,
+      "amYears": "2018-20",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Carolina Panthers",
+        "position": "DL",
+        "jersey": 97,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Carolina Panthers official roster",
+          "url": "https://www.panthers.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "micheal-clemons",
+      "name": "Micheal Clemons",
+      "team": "Indianapolis Colts",
+      "position": "DL",
+      "jersey": 72,
+      "amYears": "2017-21",
+      "rosterStatus": "reserve",
+      "statusDetail": "Reserve/Injured",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Indianapolis Colts",
+        "position": "DL",
+        "jersey": 72,
+        "rosterStatus": "reserve"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Indianapolis Colts official roster",
+          "url": "https://www.colts.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "kc-concepcion",
+      "name": "KC Concepcion",
+      "team": "Cleveland Browns",
+      "position": "WR",
+      "jersey": 1,
+      "amYears": "2025",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Cleveland Browns",
+        "position": "WR",
+        "jersey": 1,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Cleveland Browns official roster",
+          "url": "https://www.clevelandbrowns.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "edgerrin-cooper",
+      "name": "Edgerrin Cooper",
+      "team": "Green Bay Packers",
+      "position": "LB",
+      "jersey": 56,
+      "amYears": "2020-23",
+      "rosterStatus": "reserve",
+      "statusDetail": "Reserve/Injured",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Green Bay Packers",
+        "position": "LB",
+        "jersey": 56,
+        "rosterStatus": "reserve"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Green Bay Packers official roster",
+          "url": "https://www.packers.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "dametrious-crownover",
+      "name": "Dametrious Crownover",
+      "team": "New England Patriots",
+      "position": "OL",
+      "jersey": 68,
+      "amYears": "2021-25",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "New England Patriots",
+        "position": "OL",
+        "jersey": 68,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "New England Patriots official roster",
+          "url": "https://www.patriots.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "tyrel-dodson",
+      "name": "Tyrel Dodson",
+      "team": "Carolina Panthers",
+      "position": "LB",
+      "jersey": 33,
+      "amYears": "2016-18",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Carolina Panthers",
+        "position": "LB",
+        "jersey": null,
+        "rosterStatus": "practice"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Carolina Panthers official roster",
+          "url": "https://www.panthers.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": "A&M lists practice squad, current Panthers roster lists Active."
+    },
+    {
+      "id": "jermaine-eluemunor",
+      "name": "Jermaine Eluemunor",
+      "team": "New York Giants",
+      "position": "OL",
+      "jersey": 72,
+      "amYears": "2015-16",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "New York Giants",
+        "position": "OL",
+        "jersey": 72,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "New York Giants official roster",
+          "url": "https://www.giants.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "mike-evans",
+      "name": "Mike Evans",
+      "team": "San Francisco 49ers",
+      "position": "WR",
+      "jersey": 5,
+      "amYears": "2012-13",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "San Francisco 49ers",
+        "position": "WR",
+        "jersey": 5,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "San Francisco 49ers official roster",
+          "url": "https://www.49ers.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "myles-garrett",
+      "name": "Myles Garrett",
+      "team": "Los Angeles Rams",
+      "position": "DL",
+      "jersey": 95,
+      "amYears": "2014-16",
+      "rosterStatus": "reserve",
+      "statusDetail": "Reserve/Injured",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Los Angeles Rams",
+        "position": "DL",
+        "jersey": 95,
+        "rosterStatus": "reserve"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Los Angeles Rams official roster",
+          "url": "https://www.therams.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "cashius-howell",
+      "name": "Cashius Howell",
+      "team": "Cincinnati Bengals",
+      "position": "DL",
+      "jersey": 55,
+      "amYears": "2024-25",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Cincinnati Bengals",
+        "position": "DL",
+        "jersey": 55,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Cincinnati Bengals official roster",
+          "url": "https://www.bengals.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "mckinnley-jackson",
+      "name": "McKinnley Jackson",
+      "team": "San Francisco 49ers",
+      "position": "DL",
+      "jersey": 65,
+      "amYears": "2020-23",
+      "rosterStatus": "practice",
+      "statusDetail": "Practice Squad",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "San Francisco 49ers",
+        "position": "DL",
+        "jersey": null,
+        "rosterStatus": "practice"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "San Francisco 49ers official roster",
+          "url": "https://www.49ers.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "antonio-johnson-jr",
+      "name": "Antonio Johnson Jr.",
+      "team": "Jacksonville Jaguars",
+      "position": "DB",
+      "jersey": 6,
+      "amYears": "2020-22",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Jacksonville Jaguars",
+        "position": "DB",
+        "jersey": 6,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Jacksonville Jaguars official roster",
+          "url": "https://www.jaguars.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "buddy-johnson",
+      "name": "Buddy Johnson",
+      "team": "Chicago Bears",
+      "position": "LB",
+      "jersey": 59,
+      "amYears": "2017-20",
+      "rosterStatus": "practice",
+      "statusDetail": "Practice Squad; elevated October 17",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Las Vegas Raiders",
+        "position": "LB",
+        "jersey": 59,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Chicago Bears official roster",
+          "url": "https://www.chicagobears.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        },
+        {
+          "title": "Bears October 17 roster moves",
+          "url": "https://www.chicagobears.com/news/chicago-bears-announce-roster-moves-october-17-2026",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "temporary elevation"
+          ]
+        }
+      ],
+      "uncertainty": "Raiders affiliation in A&M directory is stale. Bears September 1 transaction signs him to PS; October 17 temporary gameday elevation; permanent promotion not established."
+    },
+    {
+      "id": "jaylon-jones",
+      "name": "Jaylon Jones",
+      "team": "Tennessee Titans",
+      "position": "DB",
+      "jersey": 42,
+      "amYears": "2020-22",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Tennessee Titans",
+        "position": "DB",
+        "jersey": null,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Tennessee Titans official roster",
+          "url": "https://www.tennesseetitans.com/team/rosters",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "christian-kirk",
+      "name": "Christian Kirk",
+      "team": "San Francisco 49ers",
+      "position": "WR",
+      "jersey": 3,
+      "amYears": "2015-17",
+      "rosterStatus": "reserve",
+      "statusDetail": "Reserve/Injured",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "San Francisco 49ers",
+        "position": "WR",
+        "jersey": 3,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "San Francisco 49ers official roster",
+          "url": "https://www.49ers.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": "Official current team roster differs from October 14 A&M directory; team roster takes precedence."
+    },
+    {
+      "id": "will-lee-iii",
+      "name": "Will Lee III",
+      "team": "Carolina Panthers",
+      "position": "DB",
+      "jersey": 24,
+      "amYears": "2024-25",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Carolina Panthers",
+        "position": "DB",
+        "jersey": 24,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Carolina Panthers official roster",
+          "url": "https://www.panthers.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "nnamdi-madubuike",
+      "name": "Nnamdi Madubuike",
+      "team": "Baltimore Ravens",
+      "position": "DL",
+      "jersey": 92,
+      "amYears": "2017-19",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Baltimore Ravens",
+        "position": "DL",
+        "jersey": 92,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Baltimore Ravens official roster",
+          "url": "https://www.baltimoreravens.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "braden-mann",
+      "name": "Braden Mann",
+      "team": "Philadelphia Eagles",
+      "position": "P",
+      "jersey": 10,
+      "amYears": "2016-19",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Philadelphia Eagles",
+        "position": "P",
+        "jersey": 10,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Philadelphia Eagles official roster",
+          "url": "https://www.philadelphiaeagles.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "jake-matthews",
+      "name": "Jake Matthews",
+      "team": "Atlanta Falcons",
+      "position": "OL",
+      "jersey": 70,
+      "amYears": "2010-13",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Atlanta Falcons",
+        "position": "OL",
+        "jersey": 70,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Atlanta Falcons official roster",
+          "url": "https://www.atlantafalcons.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "ryan-mccollum",
+      "name": "Ryan McCollum",
+      "team": "Pittsburgh Steelers",
+      "position": "OL",
+      "jersey": 62,
+      "amYears": "2017-20",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Pittsburgh Steelers",
+        "position": "OL",
+        "jersey": 62,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Pittsburgh Steelers official roster",
+          "url": "https://www.steelers.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "erik-mccoy",
+      "name": "Erik McCoy",
+      "team": "New Orleans Saints",
+      "position": "OL",
+      "jersey": 78,
+      "amYears": "2016-18",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "New Orleans Saints",
+        "position": "OL",
+        "jersey": 78,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "New Orleans Saints official roster",
+          "url": "https://www.neworleanssaints.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "von-miller",
+      "name": "Von Miller",
+      "team": "Dallas Cowboys",
+      "position": "LB",
+      "jersey": 40,
+      "amYears": "2007-10",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Dallas Cowboys",
+        "position": "LB",
+        "jersey": 24,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Dallas Cowboys official roster",
+          "url": "https://www.dallascowboys.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": "Dallas roster lists #40; A&M directory lists #24."
+    },
+    {
+      "id": "dan-moore-jr",
+      "name": "Dan Moore Jr.",
+      "team": "Tennessee Titans",
+      "position": "OL",
+      "jersey": 75,
+      "amYears": "2017-20",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Tennessee Titans",
+        "position": "OL",
+        "jersey": 75,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Tennessee Titans official roster",
+          "url": "https://www.tennesseetitans.com/team/rosters",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "tyler-onyedim",
+      "name": "Tyler Onyedim",
+      "team": "Denver Broncos",
+      "position": "DL",
+      "jersey": 98,
+      "amYears": "2025",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Denver Broncos",
+        "position": "DL",
+        "jersey": 98,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Denver Broncos official roster",
+          "url": "https://www.denverbroncos.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "armaj-reed-adams",
+      "name": "Ar'maj Reed-Adams",
+      "team": "Buffalo Bills",
+      "position": "OL",
+      "jersey": 60,
+      "amYears": "2024-25",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Buffalo Bills",
+        "position": "OL",
+        "jersey": 60,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Buffalo Bills official roster",
+          "url": "https://www.buffalobills.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "albert-regis",
+      "name": "Albert Regis",
+      "team": "Jacksonville Jaguars",
+      "position": "DT",
+      "jersey": 98,
+      "amYears": "2021-25",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Buffalo Bills",
+        "position": "OL",
+        "jersey": 98,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Jacksonville Jaguars official roster",
+          "url": "https://www.jaguars.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": "A&M directory lists Buffalo/OL; Jaguars current official roster lists Jacksonville/DT #98."
+    },
+    {
+      "id": "demani-richardson",
+      "name": "Demani Richardson",
+      "team": null,
+      "position": "DB",
+      "jersey": null,
+      "amYears": "2019-23",
+      "rosterStatus": "unverified",
+      "statusDetail": "Current affiliation unresolved",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Carolina Panthers",
+        "position": "DB",
+        "jersey": 36,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Carolina Panthers official roster",
+          "url": "https://www.panthers.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "not listed on current roster"
+          ]
+        },
+        {
+          "title": "Official release/waiver evidence",
+          "url": "https://www.panthers.com/news/panthers-make-moves-to-get-to-roster-limit-53-man-roster-transactions-cuts-injured-reserve-pup-nfi",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "previous affiliation ended; newer signing not established"
+          ]
+        }
+      ],
+      "uncertainty": "Absent from current listed-team official roster. Prior release/waiver evidence means A&M listing cannot establish current affiliation; do not count as confirmed team-affiliated or assume free agent.",
+      "lastListedTeam": "Carolina Panthers"
+    },
+    {
+      "id": "layden-robinson",
+      "name": "Layden Robinson",
+      "team": null,
+      "position": "OL",
+      "jersey": null,
+      "amYears": "2019-23",
+      "rosterStatus": "unverified",
+      "statusDetail": "Current affiliation unresolved",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Atlanta Falcons",
+        "position": "OL",
+        "jersey": 73,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Atlanta Falcons official roster",
+          "url": "https://www.atlantafalcons.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "not listed on current roster"
+          ]
+        },
+        {
+          "title": "Official release/waiver evidence",
+          "url": "https://www.atlantafalcons.com/team/transactions/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "previous affiliation ended; newer signing not established"
+          ]
+        }
+      ],
+      "uncertainty": "Absent from current listed-team official roster. Prior release/waiver evidence means A&M listing cannot establish current affiliation; do not count as confirmed team-affiliated or assume free agent.",
+      "lastListedTeam": "Atlanta Falcons"
+    },
+    {
+      "id": "nic-scourton",
+      "name": "Nic Scourton",
+      "team": "Carolina Panthers",
+      "position": "LB",
+      "jersey": 11,
+      "amYears": "2024",
+      "rosterStatus": "reserve",
+      "statusDetail": "Reserve/Injured",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Carolina Panthers",
+        "position": "LB",
+        "jersey": 11,
+        "rosterStatus": "reserve"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Carolina Panthers official roster",
+          "url": "https://www.panthers.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "ej-smith",
+      "name": "EJ Smith",
+      "team": null,
+      "position": "RB",
+      "jersey": null,
+      "amYears": "2024-25",
+      "rosterStatus": "unverified",
+      "statusDetail": "Current affiliation unresolved",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Kansas City Chiefs",
+        "position": "RB",
+        "jersey": 35,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Kansas City Chiefs official roster",
+          "url": "https://www.chiefs.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "not listed on current roster"
+          ]
+        },
+        {
+          "title": "Chiefs official transactions: September 4 injury settlement",
+          "url": "https://www.chiefs.com/news/",
+          "sourceDate": "2026-09-04",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Chiefs affiliation ended"
+          ]
+        }
+      ],
+      "uncertainty": "Absent from current listed-team official roster. Prior release/waiver evidence means A&M listing cannot establish current affiliation; do not count as confirmed team-affiliated or assume free agent.",
+      "lastListedTeam": "Kansas City Chiefs"
+    },
+    {
+      "id": "shemar-stewart",
+      "name": "Shemar Stewart",
+      "team": "Cincinnati Bengals",
+      "position": "DL",
+      "jersey": 94,
+      "amYears": "2022-24",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Cincinnati Bengals",
+        "position": "DL",
+        "jersey": 94,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Cincinnati Bengals official roster",
+          "url": "https://www.bengals.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "shemar-turner",
+      "name": "Shemar Turner",
+      "team": "Chicago Bears",
+      "position": "DL",
+      "jersey": 95,
+      "amYears": "2021-24",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Chicago Bears",
+        "position": "DL",
+        "jersey": 95,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Chicago Bears official roster",
+          "url": "https://www.chicagobears.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "jahdae-walker",
+      "name": "Jahdae Walker",
+      "team": "Chicago Bears",
+      "position": "WR",
+      "jersey": 9,
+      "amYears": "2023-24",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Chicago Bears",
+        "position": "WR",
+        "jersey": 9,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Chicago Bears official roster",
+          "url": "https://www.chicagobears.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "tre-watson",
+      "name": "Tre Watson",
+      "team": "Miami Dolphins",
+      "position": "TE",
+      "jersey": 87,
+      "amYears": "2024",
+      "rosterStatus": "practice",
+      "statusDetail": "Practice Squad",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Miami Dolphins",
+        "position": "TE",
+        "jersey": null,
+        "rosterStatus": "practice"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Miami Dolphins official roster",
+          "url": "https://www.miamidolphins.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "trayveon-williams",
+      "name": "Trayveon Williams",
+      "team": null,
+      "position": "RB",
+      "jersey": null,
+      "amYears": "2016-18",
+      "rosterStatus": "unverified",
+      "statusDetail": "Current affiliation unresolved",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Detroit Lions",
+        "position": "RB",
+        "jersey": 47,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Detroit Lions official roster",
+          "url": "https://www.detroitlions.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "not listed on current roster"
+          ]
+        },
+        {
+          "title": "Official release/waiver evidence",
+          "url": "https://www.detroitlions.com/news/lions-announce-roster-moves-x5389",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "previous affiliation ended; newer signing not established"
+          ]
+        }
+      ],
+      "uncertainty": "Absent from current listed-team official roster. Prior release/waiver evidence means A&M listing cannot establish current affiliation; do not count as confirmed team-affiliated or assume free agent.",
+      "lastListedTeam": "Detroit Lions"
+    },
+    {
+      "id": "taurean-york",
+      "name": "Taurean York",
+      "team": null,
+      "position": "LB",
+      "jersey": null,
+      "amYears": "2023-25",
+      "rosterStatus": "unverified",
+      "statusDetail": "Current affiliation unresolved",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Denver Broncos",
+        "position": "LB",
+        "jersey": 42,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Denver Broncos official roster",
+          "url": "https://www.denverbroncos.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "not listed on current roster"
+          ]
+        },
+        {
+          "title": "Official release/waiver evidence",
+          "url": "https://www.denverbroncos.com/news/broncos-make-series-of-roster-moves-to-reach-53-player-roster-limit",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "previous affiliation ended; newer signing not established"
+          ]
+        }
+      ],
+      "uncertainty": "Absent from current listed-team official roster. Prior release/waiver evidence means A&M listing cannot establish current affiliation; do not count as confirmed team-affiliated or assume free agent.",
+      "lastListedTeam": "Denver Broncos"
+    },
+    {
+      "id": "trey-zuhn-iii",
+      "name": "Trey Zuhn III",
+      "team": "Las Vegas Raiders",
+      "position": "OL",
+      "jersey": 66,
+      "amYears": "2021-25",
+      "rosterStatus": "active",
+      "statusDetail": "Active roster (team-listed; 53-man membership not independently reconciled)",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": "2026-10-14",
+      "directory": {
+        "team": "Las Vegas Raiders",
+        "position": "OL",
+        "jersey": 66,
+        "rosterStatus": "active"
+      },
+      "sources": [
+        {
+          "title": "Texas A&M: Aggies in the NFL",
+          "url": "https://12thman.com/sports/football/nfl-aggies",
+          "sourceDate": "2026-10-14",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "Texas A&M affiliation",
+            "A&M years",
+            "directory snapshot"
+          ]
+        },
+        {
+          "title": "Las Vegas Raiders official roster",
+          "url": "https://www.raiders.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "roster status",
+            "team",
+            "position",
+            "jersey"
+          ]
+        }
+      ],
+      "uncertainty": null
+    },
+    {
+      "id": "walter-nolen-iii",
+      "name": "Walter Nolen III",
+      "team": "Arizona Cardinals",
+      "position": "DL",
+      "jersey": 97,
+      "rosterStatus": "active",
+      "statusDetail": "Listed under Active on official team roster; precise 53-man membership not independently reconciled",
+      "amYears": "Years pending verification",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": null,
+      "notInUserDirectory": true,
+      "uncertainty": "Transfer alumnus listed under final college by NFL team. A&M participation source included; exact years should be reconfirmed against full college bio before presentation.",
+      "sources": [
+        {
+          "title": "Arizona Cardinals official roster",
+          "url": "https://www.azcardinals.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "team",
+            "roster category",
+            "position",
+            "jersey"
+          ]
+        },
+        {
+          "title": "Texas A&M affiliation evidence",
+          "url": "https://12thman.com/news/2022/12/02/aggies-hold-2022-football-banquet",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "A&M participation"
+          ]
+        }
+      ],
+      "directory": null
+    },
+    {
+      "id": "haynes-king",
+      "name": "Haynes King",
+      "team": "Carolina Panthers",
+      "position": "QB",
+      "jersey": 16,
+      "rosterStatus": "active",
+      "statusDetail": "Listed under Active on official team roster; precise 53-man membership not independently reconciled",
+      "amYears": "Years pending verification",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": null,
+      "notInUserDirectory": true,
+      "uncertainty": "Transfer alumnus listed under final college by NFL team. A&M participation source included; exact years should be reconfirmed against full college bio before presentation.",
+      "sources": [
+        {
+          "title": "Carolina Panthers official roster",
+          "url": "https://www.panthers.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "team",
+            "roster category",
+            "position",
+            "jersey"
+          ]
+        },
+        {
+          "title": "Texas A&M affiliation evidence",
+          "url": "https://12thman.com/news/2022/12/02/aggies-hold-2022-football-banquet",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "A&M participation"
+          ]
+        }
+      ],
+      "directory": null
+    },
+    {
+      "id": "lt-overton",
+      "name": "LT Overton",
+      "team": "Dallas Cowboys",
+      "position": "DT",
+      "jersey": 99,
+      "rosterStatus": "active",
+      "statusDetail": "Listed under Active on official team roster; precise 53-man membership not independently reconciled",
+      "amYears": "Years pending verification",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": null,
+      "notInUserDirectory": true,
+      "uncertainty": "Transfer alumnus listed under final college by NFL team. A&M participation source included; exact years should be reconfirmed against full college bio before presentation.",
+      "sources": [
+        {
+          "title": "Dallas Cowboys official roster",
+          "url": "https://www.dallascowboys.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "team",
+            "roster category",
+            "position",
+            "jersey"
+          ]
+        },
+        {
+          "title": "Texas A&M affiliation evidence",
+          "url": "https://12thman.com/news/2022/12/02/aggies-hold-2022-football-banquet",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "A&M participation"
+          ]
+        }
+      ],
+      "directory": null
+    },
+    {
+      "id": "eli-stowers",
+      "name": "Eli Stowers",
+      "team": "Philadelphia Eagles",
+      "position": "TE",
+      "jersey": 87,
+      "rosterStatus": "reserve",
+      "statusDetail": "Reserve/Injured",
+      "amYears": "Years pending verification",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": null,
+      "notInUserDirectory": true,
+      "uncertainty": "Transfer alumnus listed under final college by NFL team. A&M participation source included; exact years should be reconfirmed against full college bio before presentation.",
+      "sources": [
+        {
+          "title": "Philadelphia Eagles official roster",
+          "url": "https://www.philadelphiaeagles.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "team",
+            "roster category",
+            "position",
+            "jersey"
+          ]
+        },
+        {
+          "title": "Texas A&M affiliation evidence",
+          "url": "https://12thman.com/news/2022/12/02/aggies-hold-2022-football-banquet",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "A&M participation"
+          ]
+        }
+      ],
+      "directory": null
+    },
+    {
+      "id": "fadil-diggs",
+      "name": "Fadil Diggs",
+      "team": "New Orleans Saints",
+      "position": "EDGE",
+      "jersey": 40,
+      "rosterStatus": "practice",
+      "statusDetail": "Practice Squad",
+      "amYears": "Years pending verification",
+      "lastVerified": "2026-10-19",
+      "directorySnapshotDate": null,
+      "notInUserDirectory": true,
+      "uncertainty": "Transfer alumnus listed under final college by NFL team. A&M participation source included; exact years should be reconfirmed against full college bio before presentation.",
+      "sources": [
+        {
+          "title": "New Orleans Saints official roster",
+          "url": "https://www.neworleanssaints.com/team/players-roster/",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "team",
+            "roster category",
+            "position",
+            "jersey"
+          ]
+        },
+        {
+          "title": "Texas A&M affiliation evidence",
+          "url": "https://12thman.com/sports/football/roster/fadil-diggs/11504",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "A&M participation"
+          ]
+        }
+      ],
+      "directory": null
+    },
+    {
+      "name": "Josh Reynolds",
+      "rosterStatus": "free-agent",
+      "statusDetail": "NFL.com labels UFA",
+      "lastVerified": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.nfl.com/players/josh-reynolds/stats/logs/2026/",
+          "title": "NFL player page",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "NFL UFA label"
+          ]
+        }
+      ],
+      "id": "josh-reynolds",
+      "team": null,
+      "position": "WR",
+      "jersey": null,
+      "amYears": "Years pending verification",
+      "directorySnapshotDate": null,
+      "directory": null,
+      "notInUserDirectory": true,
+      "uncertainty": "NFL.com UFA label accessed October 19. Current availability and retirement state not independently confirmed; A&M years require college bio cross-check."
+    },
+    {
+      "name": "Germain Ifedi",
+      "rosterStatus": "free-agent",
+      "statusDetail": "NFL.com labels UFA",
+      "lastVerified": "2026-10-19",
+      "sources": [
+        {
+          "url": "https://www.nfl.com/players/germain-ifedi/",
+          "title": "NFL player page",
+          "accessedAt": "2026-10-19",
+          "supports": [
+            "NFL UFA label"
+          ]
+        }
+      ],
+      "id": "germain-ifedi",
+      "team": null,
+      "position": "OL",
+      "jersey": null,
+      "amYears": "Years pending verification",
+      "directorySnapshotDate": null,
+      "directory": null,
+      "notInUserDirectory": true,
+      "uncertainty": "NFL.com UFA label accessed October 19. Current availability and retirement state not independently confirmed; A&M years require college bio cross-check."
+    }
+  ],
+  "unresolved": [
+    "EJ Smith, Taurean York, Trayveon Williams, Demani Richardson, Layden Robinson: current affiliation or free-agent state requires additional verification.",
+    "Directory-only scope excludes transfer alumni listed under another final college.",
+    "Some official current rosters contain more than 53 names under Active; do not claim precise 53-man count without transaction reconciliation."
+  ],
+  "candidateAudit": [
+    {
+      "name": "Ainias Smith",
+      "finding": "Panthers waived with injury settlement August 6. No later current affiliation established.",
+      "url": "https://www.panthers.com/news/panthers-waive-one-release-another-on-offense"
+    },
+    {
+      "name": "Evan Stewart",
+      "finding": "Still college football, Oregon 2026 roster. Exclude from NFL census.",
+      "url": "https://goducks.com/sports/football/roster/Evan-Stewart/18335"
+    },
+    {
+      "name": "Max Johnson",
+      "finding": "Still college football, Georgia Southern September 10 article. Exclude.",
+      "url": "https://gseagles.com/news/2026/9/10/football-the-extra-down-max-johnsons-story-refined-by-fire"
+    },
+    {
+      "name": "Denver Harris",
+      "finding": "Still college football, UNLV 2026 roster. Exclude.",
+      "url": "https://unlvrebels.com/sports/womens-basketball/roster/denver-harris/17472"
+    },
+    {
+      "name": "Dallas Walker IV",
+      "finding": "Auburn 2026 spring roster; no NFL affiliation established.",
+      "url": "https://storage.googleapis.com/auburn-prod/2026/03/17/oolkjCFLCW4lilN0ufZ4gXGdfb0u8nIqnIi0scwk.pdf"
+    },
+    {
+      "name": "Enai White",
+      "finding": "Current college Oklahoma State per secondary source. No NFL affiliation established.",
+      "url": "https://www.on3.com/rivals/enai-white-41874/"
+    },
+    {
+      "name": "Jacoby Mathews",
+      "finding": "No verified NFL affiliation; college/portal evidence only.",
+      "url": null
+    },
+    {
+      "name": "Kenyon Green",
+      "finding": "Historical NFL evidence exists, but no current official team affiliation established in this audit. Do not count as currently affiliated or confirmed free agent. NFL generic active badge without team insufficient.",
+      "url": null
+    },
+    {
+      "name": "Jace Sternberger",
+      "finding": "Historical NFL evidence exists, but no current official team affiliation established in this audit. Do not count as currently affiliated or confirmed free agent. NFL generic active badge without team insufficient.",
+      "url": null
+    },
+    {
+      "name": "Isaiah Spiller",
+      "finding": "Historical NFL evidence exists, but no current official team affiliation established in this audit. Do not count as currently affiliated or confirmed free agent. NFL generic active badge without team insufficient.",
+      "url": null
+    },
+    {
+      "name": "Jalen Wydermyer",
+      "finding": "Historical NFL evidence exists, but no current official team affiliation established in this audit. Do not count as currently affiliated or confirmed free agent. NFL generic active badge without team insufficient.",
+      "url": null
+    },
+    {
+      "name": "Jhamon Ausbon",
+      "finding": "Historical NFL evidence exists, but no current official team affiliation established in this audit. Do not count as currently affiliated or confirmed free agent. NFL generic active badge without team insufficient.",
+      "url": null
+    },
+    {
+      "name": "Kellen Mond",
+      "finding": "Historical NFL evidence exists, but no current official team affiliation established in this audit. Do not count as currently affiliated or confirmed free agent. NFL generic active badge without team insufficient.",
+      "url": null
+    },
+    {
+      "name": "Kingsley Keke",
+      "finding": "Historical NFL evidence exists, but no current official team affiliation established in this audit. Do not count as currently affiliated or confirmed free agent. NFL generic active badge without team insufficient.",
+      "url": null
+    },
+    {
+      "name": "Otaro Alaka",
+      "finding": "Historical NFL evidence exists, but no current official team affiliation established in this audit. Do not count as currently affiliated or confirmed free agent. NFL generic active badge without team insufficient.",
+      "url": null
+    },
+    {
+      "name": "Kendrick Rogers",
+      "finding": "Historical NFL evidence exists, but no current official team affiliation established in this audit. Do not count as currently affiliated or confirmed free agent. NFL generic active badge without team insufficient.",
+      "url": null
+    },
+    {
+      "name": "Josh DeBerry",
+      "finding": "Historical NFL evidence exists, but no current official team affiliation established in this audit. Do not count as currently affiliated or confirmed free agent. NFL generic active badge without team insufficient.",
+      "url": null
+    }
+  ],
+  "counts": {
+    "active": 25,
+    "practice": 3,
+    "reserve": 7,
+    "unverified": 5,
+    "free-agent": 0
+  }
+}
