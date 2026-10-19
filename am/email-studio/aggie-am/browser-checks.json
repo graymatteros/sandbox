@@ -1,0 +1,29 @@
+[
+  {
+    "mode": "desktop",
+    "layout": {
+      "scrollWidth": 600,
+      "width": 600
+    },
+    "images": true,
+    "events": 13
+  },
+  {
+    "mode": "mobile",
+    "layout": {
+      "scrollWidth": 375,
+      "width": 375
+    },
+    "images": true,
+    "events": 13
+  },
+  {
+    "mode": "narrow",
+    "layout": {
+      "scrollWidth": 320,
+      "width": 320
+    },
+    "images": true,
+    "events": 13
+  }
+]

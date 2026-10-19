@@ -4,3 +4,5 @@
 @media(prefers-reduced-motion:reduce){*{transition:none!important}} 
 
 header .brand-logo{display:flex;align-items:center;gap:16px}header .brand-logo img{display:block;width:49px;height:49px;object-fit:contain}header .brand-logo span{margin:0;font-size:7px;letter-spacing:1.6px}@media(max-width:700px){header .brand-logo img{width:40px;height:40px}header .brand-logo{gap:12px}header .brand-logo span{font-size:6px}}
+
+.visual.email-studio{background:#500000}.email-art{position:absolute;right:10%;top:10%;width:38%;height:76%;background:#f8f5ee;border-radius:4px;opacity:.2;transform:rotate(8deg)}.email-art span{display:block;height:14%;margin:12% 12% 7%;background:#500000}.email-art i{display:block;height:27%;margin:0 12% 6%;background:#ba9d91}.email-art b,.email-art em{display:inline-block;width:34%;height:22%;margin-left:12%;background:#500000}.email-art em{margin-left:5%;background:#ba9d91}

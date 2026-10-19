@@ -1,0 +1,332 @@
+{
+  "tokens": {
+    "maroon": "#500000",
+    "ink": "#211b1b",
+    "cream": "#f5f2eb",
+    "emailWidth": 600,
+    "gutter": 36,
+    "mobileGutter": 22,
+    "bodyFont": "Arial",
+    "displayFont": "Georgia"
+  },
+  "components": [
+    {
+      "id": "ID-01",
+      "name": "Athletics masthead",
+      "family": "Identity",
+      "fields": [
+        "edition label"
+      ],
+      "limits": "Keep logo 50px; brand treatment fixed."
+    },
+    {
+      "id": "ID-02",
+      "name": "Aggie AM masthead",
+      "family": "Identity",
+      "fields": [],
+      "limits": "Use once, beneath utility bar; retain authentic logo."
+    },
+    {
+      "id": "ID-03",
+      "name": "Preferences & postal footer",
+      "family": "Identity",
+      "fields": [
+        "view online URL",
+        "preferences URL"
+      ],
+      "limits": "Required. Preserve opt-out distinction. Replace with approved Eloqua footer only after equivalent behavior is verified."
+    },
+    {
+      "id": "ED-01",
+      "name": "Statement hero",
+      "family": "Editorial",
+      "fields": [
+        "eyebrow",
+        "headline",
+        "summary"
+      ],
+      "limits": "Eyebrow \u226445 chars; headline \u226465; summary \u2264120. No background image dependency."
+    },
+    {
+      "id": "ED-02",
+      "name": "Lead story",
+      "family": "Editorial",
+      "fields": [
+        "sport",
+        "headline",
+        "body",
+        "story URL"
+      ],
+      "limits": "Headline \u226470 chars; body \u226485 words. Facts from supplied edition, not independently verified."
+    },
+    {
+      "id": "ED-03",
+      "name": "Two-story rail",
+      "family": "Editorial",
+      "fields": [
+        "two headlines",
+        "two summaries",
+        "two URLs"
+      ],
+      "limits": "Each headline \u226448 chars; summary \u226440 words. Two equal cells stack on mobile."
+    },
+    {
+      "id": "ED-04",
+      "name": "The Rundown",
+      "family": "Editorial",
+      "fields": [
+        "sport",
+        "summary",
+        "URL per item"
+      ],
+      "limits": "3\u20137 items; \u226435 words each. Keep losses factual and neutral."
+    },
+    {
+      "id": "ED-05",
+      "name": "Moment / motion feature",
+      "family": "Editorial",
+      "fields": [
+        "headline",
+        "image",
+        "alt",
+        "summary",
+        "video URL"
+      ],
+      "limits": "Image 528px wide at desktop, fluid on mobile; readable static first frame required. Animation is optional."
+    },
+    {
+      "id": "AT-01",
+      "name": "Away game matchup",
+      "family": "Athletics",
+      "fields": [
+        "date",
+        "sport",
+        "opponent",
+        "ranking",
+        "time",
+        "timezone",
+        "broadcast",
+        "venue"
+      ],
+      "limits": "Display timezone after confirmation. The supplied email omits it; do not infer for send. Home/neutral language may be edited, not geometry."
+    },
+    {
+      "id": "AT-02",
+      "name": "Final score",
+      "family": "Athletics",
+      "fields": [
+        "teams",
+        "scores",
+        "venue",
+        "result line"
+      ],
+      "limits": "Win/loss neutral labels; no color-only result indicator. Scores \u22643 digits."
+    },
+    {
+      "id": "AT-03",
+      "name": "Upcoming schedule",
+      "family": "Athletics",
+      "fields": [
+        "date",
+        "event",
+        "time",
+        "timezone",
+        "venue",
+        "network"
+      ],
+      "limits": "3 default rows; 1\u20137 supported. No schedule intro line (source explicitly removed it). Times are source samples pending confirmation."
+    },
+    {
+      "id": "AT-04",
+      "name": "Player spotlight",
+      "family": "Athletics",
+      "fields": [
+        "sport",
+        "athlete",
+        "headline",
+        "body",
+        "URL"
+      ],
+      "limits": "\u226460-word summary; no invented quotes or athlete endorsements."
+    },
+    {
+      "id": "AT-05",
+      "name": "Three-stat strip",
+      "family": "Athletics",
+      "fields": [
+        "three values",
+        "three labels"
+      ],
+      "limits": "Values \u22645 chars; labels \u226412. One-stat variant: remove two cells and set width 100%."
+    },
+    {
+      "id": "AT-06",
+      "name": "Milestone panel",
+      "family": "Athletics",
+      "fields": [
+        "eyebrow",
+        "milestone",
+        "context"
+      ],
+      "limits": "\u226450 words; verify historical claim with sports information before sending."
+    },
+    {
+      "id": "CV-01",
+      "name": "Dugout Club campaign",
+      "family": "Conversion",
+      "fields": [
+        "campaign",
+        "image",
+        "offer",
+        "CTA URL"
+      ],
+      "limits": "Source membership offer; reconfirm availability and terms. This is a membership promotion, not a single-game ticket price."
+    },
+    {
+      "id": "CV-02",
+      "name": "Event essentials",
+      "family": "Conversion",
+      "fields": [
+        "broadcast",
+        "arrival/watch instructions",
+        "information URL"
+      ],
+      "limits": "Game-day sample is away. Add parking/gates only from approved venue guidance."
+    },
+    {
+      "id": "CV-03",
+      "name": "Primary action",
+      "family": "Conversion",
+      "fields": [
+        "CTA label",
+        "URL"
+      ],
+      "limits": "Label \u226428 chars. No invented scarcity, price, seat or inventory claims."
+    },
+    {
+      "id": "UT-01",
+      "name": "Presenting sponsor",
+      "family": "Utility",
+      "fields": [
+        "approved sponsor destination"
+      ],
+      "limits": "Required for Aggie AM; do not apply sponsor to other campaigns without contracted entitlement. Keep 16px clear space."
+    },
+    {
+      "id": "UT-02",
+      "name": "Sponsor banner",
+      "family": "Utility",
+      "fields": [
+        "approved banner",
+        "alt",
+        "URL"
+      ],
+      "limits": "Preserve source placement before Rundown. Artwork review required: legal copy must remain readable at 320px; never crop disclaimers."
+    },
+    {
+      "id": "UT-03",
+      "name": "Section break",
+      "family": "Utility",
+      "fields": [],
+      "limits": "8px vertical / 36px horizontal. Structural only; cannot replace a heading."
+    },
+    {
+      "id": "UT-04",
+      "name": "Utility bar & notice",
+      "family": "Utility",
+      "fields": [
+        "view online URL"
+      ],
+      "limits": "Use once at top. Send-blocking status stays in catalog, outside email markup."
+    }
+  ],
+  "templates": [
+    {
+      "slug": "aggie-am",
+      "name": "Aggie AM",
+      "description": "The daily editorial edition.",
+      "subject": "Bounce-back weekend.",
+      "preheader": "Football, volleyball and the week ahead.",
+      "modules": [
+        "UT-04",
+        "ID-02",
+        "UT-01",
+        "ED-01",
+        "ED-02",
+        "AT-05",
+        "ED-03",
+        "ED-05",
+        "UT-02",
+        "ED-04",
+        "CV-01",
+        "AT-03",
+        "ID-03"
+      ]
+    },
+    {
+      "slug": "game-day",
+      "name": "Game day",
+      "description": "An away-game briefing.",
+      "subject": "Saturday starts here.",
+      "preheader": "Texas A&M at Alabama: broadcast and game information.",
+      "modules": [
+        "UT-04",
+        "ID-01",
+        "AT-01",
+        "CV-02",
+        "CV-03",
+        "AT-03",
+        "ID-03"
+      ]
+    },
+    {
+      "slug": "postgame",
+      "name": "Postgame recap",
+      "description": "The result, the story, the numbers.",
+      "subject": "All gas. No points allowed.",
+      "preheader": "Texas A&M 41, The Citadel 0.",
+      "modules": [
+        "UT-04",
+        "ID-01",
+        "AT-02",
+        "AT-05",
+        "ED-02",
+        "AT-06",
+        "AT-04",
+        "AT-03",
+        "ID-03"
+      ]
+    },
+    {
+      "slug": "feature",
+      "name": "Feature story",
+      "description": "One moment gets room to breathe.",
+      "subject": "One hand. One unforgettable first.",
+      "preheader": "Nate Boerkircher\u2019s first NFL touchdown.",
+      "modules": [
+        "UT-04",
+        "ID-01",
+        "ED-05",
+        "UT-03",
+        "AT-04",
+        "ED-03",
+        "ID-03"
+      ]
+    },
+    {
+      "slug": "campaign",
+      "name": "Ticket / campaign",
+      "description": "A source-backed membership campaign.",
+      "subject": "Closer to the program.",
+      "preheader": "Dugout Club memberships for 2027.",
+      "modules": [
+        "UT-04",
+        "ID-01",
+        "CV-01",
+        "CV-02",
+        "CV-03",
+        "ID-03"
+      ]
+    }
+  ]
+}

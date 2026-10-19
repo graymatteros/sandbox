@@ -1,0 +1,53 @@
+{
+  "templates": [
+    {
+      "template": "aggie-am.html",
+      "bytes": 13818,
+      "images": 5,
+      "placeholderLinks": 13,
+      "errors": [],
+      "sourceChecks": "PASS",
+      "productionReady": false
+    },
+    {
+      "template": "campaign.html",
+      "bytes": 6247,
+      "images": 2,
+      "placeholderLinks": 5,
+      "errors": [],
+      "sourceChecks": "PASS",
+      "productionReady": false
+    },
+    {
+      "template": "feature.html",
+      "bytes": 7683,
+      "images": 2,
+      "placeholderLinks": 7,
+      "errors": [],
+      "sourceChecks": "PASS",
+      "productionReady": false
+    },
+    {
+      "template": "game-day.html",
+      "bytes": 7671,
+      "images": 1,
+      "placeholderLinks": 5,
+      "errors": [],
+      "sourceChecks": "PASS",
+      "productionReady": false
+    },
+    {
+      "template": "postgame.html",
+      "bytes": 9160,
+      "images": 1,
+      "placeholderLinks": 5,
+      "errors": [],
+      "sourceChecks": "PASS",
+      "productionReady": false
+    }
+  ],
+  "privacyFailures": [],
+  "emailClientTests": "NOT RUN",
+  "eloquaImport": "NOT RUN",
+  "sendStatus": "BLOCKED: placeholders, asset remapping, approvals and delivery validation required"
+}

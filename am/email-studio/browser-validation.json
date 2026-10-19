@@ -1,0 +1,143 @@
+{
+  "environment": "Codex in-app browser; email iframe widths, not physical devices",
+  "checks": [
+    {
+      "template": "aggie-am",
+      "viewport": 600,
+      "layout": {
+        "scrollWidth": 600,
+        "width": 600
+      },
+      "imagesLoaded": true
+    },
+    {
+      "template": "aggie-am",
+      "viewport": 375,
+      "layout": {
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "imagesLoaded": true
+    },
+    {
+      "template": "aggie-am",
+      "viewport": 320,
+      "layout": {
+        "scrollWidth": 320,
+        "width": 320
+      },
+      "imagesLoaded": true
+    },
+    {
+      "template": "game-day",
+      "viewport": 600,
+      "layout": {
+        "scrollWidth": 600,
+        "width": 600
+      },
+      "imagesLoaded": true
+    },
+    {
+      "template": "game-day",
+      "viewport": 375,
+      "layout": {
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "imagesLoaded": true
+    },
+    {
+      "template": "game-day",
+      "viewport": 320,
+      "layout": {
+        "scrollWidth": 320,
+        "width": 320
+      },
+      "imagesLoaded": true
+    },
+    {
+      "template": "postgame",
+      "viewport": 600,
+      "layout": {
+        "scrollWidth": 600,
+        "width": 600
+      },
+      "imagesLoaded": true
+    },
+    {
+      "template": "postgame",
+      "viewport": 375,
+      "layout": {
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "imagesLoaded": true
+    },
+    {
+      "template": "postgame",
+      "viewport": 320,
+      "layout": {
+        "scrollWidth": 320,
+        "width": 320
+      },
+      "imagesLoaded": true
+    },
+    {
+      "template": "feature",
+      "viewport": 600,
+      "layout": {
+        "scrollWidth": 600,
+        "width": 600
+      },
+      "imagesLoaded": true
+    },
+    {
+      "template": "feature",
+      "viewport": 375,
+      "layout": {
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "imagesLoaded": true
+    },
+    {
+      "template": "feature",
+      "viewport": 320,
+      "layout": {
+        "scrollWidth": 320,
+        "width": 320
+      },
+      "imagesLoaded": true
+    },
+    {
+      "template": "campaign",
+      "viewport": 600,
+      "layout": {
+        "scrollWidth": 600,
+        "width": 600
+      },
+      "imagesLoaded": true
+    },
+    {
+      "template": "campaign",
+      "viewport": 375,
+      "layout": {
+        "scrollWidth": 375,
+        "width": 375
+      },
+      "imagesLoaded": true
+    },
+    {
+      "template": "campaign",
+      "viewport": 320,
+      "layout": {
+        "scrollWidth": 320,
+        "width": 320
+      },
+      "imagesLoaded": true
+    }
+  ],
+  "catalogSearch": "score returns 1 component",
+  "familyFilter": "Identity returns 3 components",
+  "inboxValidation": "NOT RUN"
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "file": "lottery.png",
+    "source": "https://static.12thman.com/aggieam/Images/lottery.png",
+    "bytes": 117515,
+    "width": 600,
+    "height": 150
+  },
+  {
+    "file": "tam-white-300.png",
+    "source": "https://static.12thman.com/aggieam/Images/tam-white-300.png",
+    "bytes": 5694,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "file": "dugout-2027.jpeg",
+    "source": "https://static.12thman.com/aggieam/Images/dugout-2027.jpeg",
+    "bytes": 2684081,
+    "width": 1536,
+    "height": 1920
+  },
+  {
+    "file": "tam-maroon-300.png",
+    "source": "https://static.12thman.com/aggieam/Images/tam-maroon-300.png",
+    "bytes": 5695,
+    "width": 300,
+    "height": 300
+  },
+  {
+    "file": "viu-hub-light.png",
+    "source": "https://static.12thman.com/aggieam/Images/viu-hub-light.png",
+    "bytes": 26413,
+    "width": 882,
+    "height": 587
+  },
+  {
+    "file": "viu-hub-dark.png",
+    "source": "https://static.12thman.com/aggieam/Images/viu-hub-dark.png",
+    "bytes": 26324,
+    "width": 882,
+    "height": 587
+  },
+  {
+    "file": "nate-catch.gif",
+    "source": "https://static.12thman.com/aggieam/Images/nate-catch.gif",
+    "bytes": 3021099,
+    "width": 598,
+    "height": 308
+  },
+  {
+    "file": "am-dark-logo.png",
+    "source": "https://static.12thman.com/aggieam/Images/am-dark-logo.png",
+    "bytes": 28207,
+    "width": 1800,
+    "height": 246
+  },
+  {
+    "file": "am-light-logo.png",
+    "source": "https://static.12thman.com/aggieam/Images/am-light-logo.png",
+    "bytes": 19294,
+    "width": 1800,
+    "height": 246
+  }
+]

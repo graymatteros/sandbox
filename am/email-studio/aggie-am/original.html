@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="x-apple-disable-message-reformatting" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="supported-color-schemes" content="light dark" />
+  <!--[if mso]>
+  <noscript><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript>
+  <![endif]-->
+  <title>Aggie AM | Monday, October 19, 2026</title>
+  <!--
+    ============================================================
+    AGGIE AM — MASTER EMAIL TEMPLATE (Eloqua-ready)
+    ============================================================
+    HOW TO USE
+    1. Paste this file into Eloqua via the SOURCE / CODE view only.
+    2. Save, then go straight to Preview/Test. DO NOT switch to the
+       Design/WYSIWYG view — that round-trip re-mangles the markup.
+    3. Daily automation should replace only the {{TOKENS}} and the
+       blocks marked  <!== DAILY SWAP ==>. Never edit STATIC blocks.
+
+    IMAGE RULE (critical for Eloqua):
+      Every  MUST be a full absolute https:// URL.
+      Base folder: https://static.12thman.com/aggieam/
+      Relative paths ("Images/...") break the instant this leaves
+      the static site.
+    ============================================================
+  -->
+  <style>
+    /* Web font is progressive-enhancement only; Arial is the real fallback everywhere. */
+    600;700;800&display=swap');
+    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { -ms-interpolation-mode: bicubic; border: 0; outline: none; text-decoration: none; display: block; }
+    a[x-apple-data-detectors] { color: inherit !important; text-decoration: none !important; font-size: inherit !important; }
+    body { margin: 0 !important; padding: 0 !important; background-color: #ffffff; width: 100% !important; }
+    /* Media queries live in <head>; if an ESP strips them the email still renders correctly on desktop. */
+    @media only screen and (max-width: 620px) {
+      .email-container  { width: 100% !important; max-width: 100% !important; }
+      .fluid-img        { width: 100% !important; height: auto !important; }
+      .section-pad      { padding-left: 20px !important; padding-right: 20px !important; }
+      .lede-font        { font-size: 14px !important; line-height: 1.6 !important; }
+      .h2-font          { font-size: 17px !important; }
+      .app-badge-cell   { display: block !important; width: 100% !important; text-align: center !important; padding-right: 0 !important; padding-bottom: 12px !important; }
+      .app-text-cell    { display: block !important; width: 100% !important; text-align: center !important; }
+      .app-btn-cell     { display: block !important; padding-right: 0 !important; padding-bottom: 8px !important; text-align: center !important; }
+    }
+
+    /* ================= DARK MODE =================
+       Declares that this email HANDLES dark mode, so clients that honor
+       prefers-color-scheme (Apple Mail, iOS Mail) use these colors instead
+       of auto-inverting. Gmail/Outlook honor it partially. If an ESP strips
+       this block, the email safely renders in its light styles. */
+    :root { color-scheme: light dark; supported-color-schemes: light dark; }
+    @media (prefers-color-scheme: dark) {
+      body, .dm-body { background-color: #121212 !important; }
+      /* Header: swap light logo for dark logo */
+      .dm-hdr-light { display: none !important; max-height: 0 !important; overflow: hidden !important; }
+      .dm-hdr-dark  { display: block !important; width: 100% !important; max-height: none !important; overflow: visible !important; }
+      .dm-tam-light { display: none !important; }
+      .dm-tam-dark  { display: block !important; }
+      .dm-util-a    { color: #9a9a9a !important; }
+      .dm-hub-light { display: none !important; }
+      .dm-hub-dark  { display: inline-block !important; }
+      /* White content cards -> dark surfaces with light text */
+      .dm-card              { background-color: #1a1817 !important; border-color: #2e2a28 !important; }
+      .promo-card           { border-top-color: #1659A8 !important; } /* keep the Playfly blue bar in dark mode */
+      .dm-appcard           { border-color: #500000 !important; } /* maroon outline on the app promo card */
+      .dm-card p, .dm-card td { color: #d9d5cf !important; }
+      .dm-card strong, .dm-card h2 { color: #ffffff !important; }
+      .dm-card a            { color: #e6b8b8 !important; }          /* inline story links */
+      .dm-card a.dm-btn     { color: #500000 !important; }          /* pill buttons keep maroon */
+      .dm-card a.dm-appcta  { color: #ffffff !important; }          /* app "Get the App" button stays white on maroon */
+      .dm-card td.dm-label  { color: #d4a15a !important; }          /* section eyebrows -> gold */
+      .dm-slogan            { color: #d9d5cf !important; }          /* slogan under the logo */
+      .dm-hr                { border-top-color: rgba(255,255,255,0.28) !important; border-bottom-color: rgba(255,255,255,0.28) !important; } /* dividers: Big 3, Rundown, Schedule */
+      /* "Best Thing" feature card */
+      .dm-besthing            { background-color: #241a1a !important; border-color: #3a2a2a !important; border-top-color: #7a1420 !important; }
+      .dm-besthing p          { color: #d9d5cf !important; }
+      .dm-besthing h2         { color: #ffffff !important; }
+      .dm-besthing a          { color: #e6b8b8 !important; }
+      .dm-besthing td.dm-label { color: #d4a15a !important; }
+      /* Footer */
+      .dm-foot         { background-color: #121212 !important; }
+      .dm-foot p, .dm-foot a { color: #8a8a8a !important; }
+    }
+  </style>
+</head>
+<body class="dm-body" style="margin:0;padding:0;background-color:#ffffff;width:100%;" bgcolor="#ffffff"><div style="display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">
+    Wake up with the Aggies, every weekday morning.
+</div>
+
+
+
+
+
+<!-- PREHEADER: hidden inbox preview text. DAILY SWAP the Football shuts out The Citadel 41-0, volleyball bounces back against Auburn, and both golf teams tee off this morning. token. -->
+<div style="display:none;font-size:1px;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;mso-hide:all;font-family:Arial,sans-serif;color:#ffffff;">
+  Football shuts out The Citadel 41-0, volleyball bounces back against Auburn, and both golf teams tee off this morning.
+  &#8202;&zwnj;&nbsp;&#8203;&#8202;&zwnj;&nbsp;&#8203;&#8202;&zwnj;&nbsp;&#8203;&#8202;&zwnj;&nbsp;&#8203;&#8202;&zwnj;&nbsp;&#8203;&#8202;&zwnj;&nbsp;&#8203;
+</div>
+
+<!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff"><tr><td><![endif]-->
+<table role="presentation" class="dm-body" cellspacing="0" cellpadding="0" border="0" width="100%" bgcolor="#ffffff" style="background-color:#ffffff;">
+  <tr>
+    <td align="center" style="padding:24px 10px;">
+      <table role="presentation" class="email-container" cellspacing="0" cellpadding="0" border="0" width="600" style="max-width:600px;width:600px;">
+
+        <!-- ===================== STATIC: TOP UTILITY BAR ===================== -->
+        <tr>
+          <td class="section-pad" style="padding:0 6px 16px;">
+            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td align="left" class="dm-util" style="font-family:'Inter',Arial,sans-serif;font-size:11px;color:#888888;">
+                  <a href="https://example.invalid/REFERENCE_LINK" class="dm-util-a" style="color:#888888;text-decoration:underline;">View in browser</a>
+                </td>
+                <td align="right" class="dm-util" style="font-family:'Inter',Arial,sans-serif;font-size:11px;color:#888888;">
+                  <a href="https://example.invalid/REFERENCE_LINK" class="dm-util-a" style="color:#888888;text-decoration:underline;">Get the 12th Man App</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- ===================== STATIC: TAM LOGO (above + outside the container, centered) ===================== -->
+        <tr>
+          <td align="center" style="padding:0 0 16px 0;line-height:0;font-size:0;">
+            <img src="assets/tam-maroon-300.png" alt="Texas A&amp;M" width="56" class="dm-tam-light"
+                 style="width:56px;max-width:56px;height:auto;display:block;margin:0 auto;" />
+            <!--[if !mso]><!-->
+            <img src="assets/tam-white-300.png" alt="Texas A&amp;M" width="56" class="dm-tam-dark"
+                 style="width:56px;max-width:56px;height:auto;display:none;margin:0 auto;mso-hide:all;" />
+            <!--<![endif]-->
+          </td>
+        </tr>
+
+        <!-- ===================== STATIC: HEADER LOGO (top of the container) ===================== -->
+        <tr>
+          <td bgcolor="#ffffff" style="background-color:#ffffff;border:1px solid #e0e0e0;border-bottom:0;border-radius:12px 12px 0 0;padding:14px 36px 2px;text-align:center;line-height:0;font-size:0;" class="section-pad dm-card">
+            <img src="assets/am-light-logo.png" alt="Aggie AM" width="598" class="fluid-img dm-hdr-light"
+                 style="width:100%;max-width:598px;height:auto;display:block;margin:0 auto;" />
+            <!--[if !mso]><!-->
+            <img src="assets/am-dark-logo.png" alt="Aggie AM" width="598" class="fluid-img dm-hdr-dark"
+                 style="width:100%;max-width:598px;height:auto;display:none;margin:0 auto;mso-hide:all;" />
+            <!--<![endif]-->
+          </td>
+        </tr>
+        <!-- ===================== STATIC: SLOGAN (live text — shows even with images off) ===================== -->
+        <tr>
+          <td bgcolor="#ffffff" style="background-color:#ffffff;border-left:1px solid #e0e0e0;border-right:1px solid #e0e0e0;padding:6px 36px 6px;text-align:center;font-family:'Inter',Arial,sans-serif;font-size:13px;font-weight:600;color:#500000;letter-spacing:0.02em;line-height:1.5;" class="section-pad dm-card dm-slogan">
+            Wake up with the Aggies, every weekday morning.
+          </td>
+        </tr>
+        <!-- ===================== STATIC: MASTHEAD DIVIDER (short, centered) ===================== -->
+        <tr>
+          <td bgcolor="#ffffff" style="background-color:#ffffff;border-left:1px solid #e0e0e0;border-right:1px solid #e0e0e0;padding:8px 36px 8px;" class="section-pad dm-card">
+            <table role="presentation" width="75%" align="center" cellspacing="0" cellpadding="0" border="0" style="margin:0 auto;">
+              <tr><td class="dm-hr" style="border-bottom:1px solid #f0f0f0;font-size:0;line-height:0;height:1px;">&nbsp;</td></tr>
+            </table>
+          </td>
+        </tr>
+        <!-- ===================== DAILY SWAP: AD SLOT 1 — PRESENTED BY (middle of the container) ===================== -->
+        <tr>
+          <td bgcolor="#ffffff" style="background-color:#ffffff;border-left:1px solid #e0e0e0;border-right:1px solid #e0e0e0;padding:8px 36px 16px;text-align:center;" class="section-pad dm-card">
+            <span style="font-family:'Inter',Arial,sans-serif;font-size:9.5px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:#888888;margin-right:10px;vertical-align:middle;">Presented by</span>
+            <a href="https://example.invalid/REFERENCE_LINK" style="text-decoration:none;display:inline-block;vertical-align:middle;">
+              <img src="assets/viu-hub-light.png" alt="VIU by HUB" width="118" class="dm-hub-light"
+                 style="width:118px;height:auto;display:inline-block;vertical-align:middle;border:0;" />
+              <!--[if !mso]><!-->
+              <img src="assets/viu-hub-dark.png" alt="VIU by HUB" width="118" class="dm-hub-dark"
+                 style="width:118px;height:auto;display:none;vertical-align:middle;border:0;" />
+              <!--<![endif]-->
+            </a>
+          </td>
+        </tr>
+
+        <!-- ===================== DAILY SWAP: LEDE + THE BIG 3 (bottom of the container) ===================== -->
+        <tr>
+          <td bgcolor="#ffffff" style="background-color:#ffffff;border:1px solid #e0e0e0;border-top:0;border-radius:0 0 12px 12px;padding:6px 36px 26px;" class="section-pad dm-card">
+            <p class="lede-font dm-hr" style="font-family:'Inter',Arial,sans-serif;font-size:15.5px;line-height:1.65;color:#2a2a2a;margin:0 0 20px 0;padding-bottom:20px;border-bottom:1px solid #ebebeb;">Good morning. For the first time in nearly 30 years, Texas, Alabama and Georgia all lost on the same Saturday. Amid a wild weekend in college football, your Fightin&#8217; Texas Aggies took care of their business. It&#8217;s Monday, October 19 &#8212; here&#8217;s what you need to know to start your day.</p>
+            <!-- Big 3 section sponsor -->
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin-bottom:14px;">
+              <tr>
+                <td class="dm-label" style="font-family:'Inter',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#500000;">The Big 3</td>
+              </tr>
+            </table>
+            <!-- Big 3 Item 1 -->
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td width="22" valign="top" class="dm-hr" style="padding:0 12px 11px 0;border-bottom:1px solid #f0f0f0;">
+                  <div style="width:22px;height:22px;background-color:#f7f2e8;border-radius:50%;font-family:'Inter',Arial,sans-serif;font-size:11px;font-weight:800;color:#500000;text-align:center;line-height:22px;">1</div>
+                </td>
+                <td valign="top" class="dm-hr" style="padding:0 0 11px 0;border-bottom:1px solid #f0f0f0;font-family:'Inter',Arial,sans-serif;font-size:14px;color:#2a2a2a;line-height:1.5;">
+                  <strong style="color:#1a1a1a;">Football blanks The Citadel, 41-0:</strong> Texas A&amp;M posted its second shutout of the season Saturday, the first time since 1993 the Aggies have had two in one year. Jamarion Morrow ran for three touchdowns, freshman Aaron Gregory caught two, and A&amp;M piled up 501 yards to move to 4-3. Next up: Saturday at No. 13 Alabama, 2:30 p.m. on ABC. <a href="https://example.invalid/REFERENCE_LINK" style="color:#500000;font-weight:600;text-decoration:none;border-bottom:1px solid #c8a951;">Link</a>
+                </td>
+              </tr>
+            </table>
+            <!-- Big 3 Item 2 -->
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td width="22" valign="top" class="dm-hr" style="padding:11px 12px 11px 0;border-bottom:1px solid #f0f0f0;">
+                  <div style="width:22px;height:22px;background-color:#f7f2e8;border-radius:50%;font-family:'Inter',Arial,sans-serif;font-size:11px;font-weight:800;color:#500000;text-align:center;line-height:22px;">2</div>
+                </td>
+                <td valign="top" class="dm-hr" style="padding:11px 0;border-bottom:1px solid #f0f0f0;font-family:'Inter',Arial,sans-serif;font-size:14px;color:#2a2a2a;line-height:1.5;">
+                  <strong style="color:#1a1a1a;">Volleyball rebounds on Senior Day:</strong> No. 19 volleyball snapped a three-match losing streak yesterday with a 3-1 win over Auburn at Reed Arena. Kyndal Stowers had 21 kills, four Aggies reached double digits, and freshman Gabi Rodriguez logged her first career double-double. A&amp;M is 11-8, 4-3 in the SEC, with Georgia on Friday and No. 4 Kentucky on Sunday. <a href="https://example.invalid/REFERENCE_LINK" style="color:#500000;font-weight:600;text-decoration:none;border-bottom:1px solid #c8a951;">Link</a>
+                </td>
+              </tr>
+            </table>
+            <!-- Big 3 Item 3 -->
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td width="22" valign="top" style="padding:11px 12px 0 0;">
+                  <div style="width:22px;height:22px;background-color:#f7f2e8;border-radius:50%;font-family:'Inter',Arial,sans-serif;font-size:11px;font-weight:800;color:#500000;text-align:center;line-height:22px;">3</div>
+                </td>
+                <td valign="top" style="padding:11px 0 0 0;font-family:'Inter',Arial,sans-serif;font-size:14px;color:#2a2a2a;line-height:1.5;">
+                  <strong style="color:#1a1a1a;">Both golf teams tee off this morning:</strong> Men&#8217;s golf plays the inaugural Abilene Christian Intercollegiate at Halbert National, with Golf Channel live from 3 p.m. to 6 p.m. each day. No. 7 women&#8217;s golf, the highest-ranked team in the field, opens The Fin with a 9:30 a.m. shotgun start. Both events run 54 holes through Wednesday. <a href="https://example.invalid/REFERENCE_LINK" style="color:#500000;font-weight:600;text-decoration:none;border-bottom:1px solid #c8a951;">Link</a>, <a href="https://example.invalid/REFERENCE_LINK" style="color:#500000;font-weight:600;text-decoration:none;border-bottom:1px solid #c8a951;">Link</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr><td class="dm-body" height="14" style="font-size:0;line-height:0;mso-line-height-rule:exactly;" bgcolor="#ffffff">&nbsp;</td></tr>
+
+        <tr><td class="dm-body" height="14" style="font-size:0;line-height:0;mso-line-height-rule:exactly;" bgcolor="#ffffff">&nbsp;</td></tr>
+
+        <!-- ===================== DAILY SWAP: BEST THING WE SAW OVER THE WEEKEND ===================== -->
+        <tr>
+          <td bgcolor="#f0e8e8" style="background-color:#f0e8e8;border:1px solid #ddd0d0;border-top:3px solid #500000;border-radius:12px;padding:26px 36px;" class="section-pad dm-besthing">
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin-bottom:14px;">
+              <tr>
+                <td class="dm-label" style="font-family:'Inter',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#500000;padding-bottom:8px;">
+                  <span style="font-size:20px;vertical-align:middle;margin-right:6px;">&#128077;</span>The Best Thing We Saw Over the Weekend
+                </td>
+              </tr>
+            </table>
+            <h2 class="h2-font" style="font-family:'Inter',Arial,sans-serif;font-size:20px;font-weight:700;color:#1a1a1a;line-height:1.3;margin:0 0 12px 0;">Boerkircher&#8217;s One-Handed First</h2>
+            <p class="bestthing-intro" style="font-family:'Inter',Arial,sans-serif;font-size:14.5px;color:#333333;line-height:1.65;margin:0 0 14px 0;">Nate Boerkircher&#8217;s first NFL touchdown was a one-handed grab in the end zone, a one-yard catch from Trevor Lawrence for the Jaguars on Sunday in London.</p>
+            <!-- Media embed: nate-catch.gif linked to aggi.es/nate-catch, standard Watch CTA -->
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin-bottom:0;">
+              <tr>
+                <td style="line-height:0;font-size:0;">
+                  <a href="https://example.invalid/REFERENCE_LINK" style="text-decoration:none;"><img src="assets/nate-catch.gif" alt="Nate Boerkircher one-handed touchdown catch" width="598" class="fluid-img" style="width:100%;max-width:598px;height:auto;display:block;border-radius:8px;" /></a>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding-top:14px;">
+                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                    <tr>
+                      <td align="center" bgcolor="#500000" style="background-color:#500000;border-radius:8px;">
+                        <a href="https://example.invalid/REFERENCE_LINK" class="dm-appcta" style="display:block;font-family:'Inter',Arial,sans-serif;font-size:15px;font-weight:700;color:#ffffff;text-decoration:none;padding:14px 20px;text-align:center;">Watch</a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr><td class="dm-body" height="14" style="font-size:0;line-height:0;mso-line-height-rule:exactly;" bgcolor="#ffffff">&nbsp;</td></tr>
+
+        <!-- ===================== DAILY SWAP: BANNER BEFORE RUNDOWN (Taylor 10/19) ===================== -->
+        <tr>
+          <td style="line-height:0;font-size:0;">
+            <a href="https://example.invalid/REFERENCE_LINK" style="text-decoration:none;"><img src="assets/lottery.png" alt="Lottery" width="598" class="fluid-img" style="width:100%;max-width:598px;height:auto;display:block;border-radius:12px;" /></a>
+          </td>
+        </tr>
+
+        <tr><td class="dm-body" height="14" style="font-size:0;line-height:0;mso-line-height-rule:exactly;" bgcolor="#ffffff">&nbsp;</td></tr>
+
+        <!-- ===================== DAILY SWAP: THE RUNDOWN ===================== -->
+        <tr>
+          <td bgcolor="#ffffff" style="background-color:#ffffff;border:1px solid #e0e0e0;border-radius:12px;padding:26px 36px;" class="section-pad dm-card">
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin-bottom:14px;">
+              <tr>
+                <td class="dm-label" style="font-family:'Inter',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#500000;">The Rundown</td>
+              </tr>
+            </table>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td class="dm-hr" style="padding:0 0 16px 0;border-bottom:1px solid #f0f0f0;">
+                  <p style="margin:0 0 5px 0;"><span style="display:inline-block;font-family:'Inter',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#500000;background-color:#f0e8e8;border-radius:999px;padding:3px 10px;">Soccer</span></p>
+                  <p style="font-family:'Inter',Arial,sans-serif;font-size:14.5px;font-weight:700;color:#1a1a1a;margin:0 0 5px 0;line-height:1.35;">Aggies Fall to LSU on Late Penalty, 4-3</p>
+                  <p style="font-family:'Inter',Arial,sans-serif;font-size:13.5px;color:#444444;line-height:1.65;margin:0;">Ireland Churchill scored twice and Kieana Smith added her first collegiate goal, but LSU tied it in the 80th minute and won on a penalty with 50 seconds left. A&amp;M (4-10-1) is at Missouri Thursday at 8 p.m. on SEC Network. <a href="https://example.invalid/REFERENCE_LINK" style="color:#500000;font-weight:600;text-decoration:none;border-bottom:1px solid #c8a951;">Link</a></p>
+                </td>
+              </tr>
+            </table>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td class="dm-hr" style="padding:16px 0 16px 0;border-bottom:1px solid #f0f0f0;">
+                  <p style="margin:0 0 5px 0;"><span style="display:inline-block;font-family:'Inter',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#500000;background-color:#f0e8e8;border-radius:999px;padding:3px 10px;">Volleyball</span></p>
+                  <p style="font-family:'Inter',Arial,sans-serif;font-size:14.5px;font-weight:700;color:#1a1a1a;margin:0 0 5px 0;line-height:1.35;">Volleyball Drops a Four-Setter to No. 7 Florida</p>
+                  <p style="font-family:'Inter',Arial,sans-serif;font-size:13.5px;color:#444444;line-height:1.65;margin:0;">Friday night went 3-1 Florida, with the Aggies taking the second set 25-23. Kyndal Stowers had 17 kills and 11 digs, Eliza Sharp returned from injury with eight kills and four blocks, and 6,464 filled Reed Arena, fifth-most in program history. <a href="https://example.invalid/REFERENCE_LINK" style="color:#500000;font-weight:600;text-decoration:none;border-bottom:1px solid #c8a951;">Link</a></p>
+                </td>
+              </tr>
+            </table>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td class="dm-hr" style="padding:16px 0 16px 0;border-bottom:1px solid #f0f0f0;">
+                  <p style="margin:0 0 5px 0;"><span style="display:inline-block;font-family:'Inter',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#500000;background-color:#f0e8e8;border-radius:999px;padding:3px 10px;">Cross Country</span></p>
+                  <p style="font-family:'Inter',Arial,sans-serif;font-size:14.5px;font-weight:700;color:#1a1a1a;margin:0 0 5px 0;line-height:1.35;">Moiben Finishes Second at Arturo Barrios Invitational</p>
+                  <p style="font-family:'Inter',Arial,sans-serif;font-size:13.5px;color:#444444;line-height:1.65;margin:0;">Michael Moiben was second in the men&#8217;s 8k in his season debut Friday, and Jack Johnston took seventh. The men placed fifth of 38 teams, ahead of regionally ranked No. 4 TCU and No. 5 Texas. The women were seventh. SEC Championships are Oct. 30. <a href="https://example.invalid/REFERENCE_LINK" style="color:#500000;font-weight:600;text-decoration:none;border-bottom:1px solid #c8a951;">Link</a></p>
+                </td>
+              </tr>
+            </table>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td style="padding:16px 0 0 0;">
+                  <p style="margin:0 0 5px 0;"><span style="display:inline-block;font-family:'Inter',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#500000;background-color:#f0e8e8;border-radius:999px;padding:3px 10px;">Baseball</span></p>
+                  <p style="font-family:'Inter',Arial,sans-serif;font-size:14.5px;font-weight:700;color:#1a1a1a;margin:0 0 5px 0;line-height:1.35;">Fall Ball Closes With a 13-10 Win Over McNeese</p>
+                  <p style="font-family:'Inter',Arial,sans-serif;font-size:13.5px;color:#444444;line-height:1.65;margin:0;">Baseball wrapped fall play Friday night at Blue Bell Park, a 12-inning 13-10 win. Eleven pitchers combined for 22 strikeouts, and Cole Travers hit the lone home run in the 10th. Opening Day is Feb. 19 against Milwaukee. <a href="https://example.invalid/REFERENCE_LINK" style="color:#500000;font-weight:600;text-decoration:none;border-bottom:1px solid #c8a951;">Link</a></p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr><td class="dm-body" height="14" style="font-size:0;line-height:0;mso-line-height-rule:exactly;" bgcolor="#ffffff">&nbsp;</td></tr>
+
+        <!-- ===================== DAILY SWAP: PROMO SLOT — DUGOUT CLUB (Taylor 10/19; replaces the app promo card today) ===================== -->
+        <tr>
+          <td bgcolor="#62192a" style="background-color:#62192a;border:1px solid #e0e0e0;border-radius:12px;padding:26px 36px;" class="section-pad dm-card dm-appcard">
+            <h2 class="h2-font" style="font-family:'Inter',Arial,sans-serif;font-size:20px;font-weight:700;color:#ffffff;line-height:1.3;margin:0 0 6px 0;">Join the Dugout Club</h2>
+            <p style="font-family:'Inter',Arial,sans-serif;font-size:15px;font-weight:700;color:#ffffff;line-height:1.4;margin:0 0 16px 0;">Baseball&#8217;s Dugout Club is taking new members for 2027.</p>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin:0 0 20px 0;">
+              <tr>
+                <td width="18" valign="top" style="font-family:'Inter',Arial,sans-serif;font-size:14px;line-height:1.6;color:#ffffff;">&bull;</td>
+                <td style="font-family:'Inter',Arial,sans-serif;font-size:14px;line-height:1.6;color:#ffffff;padding-bottom:8px;">A direct way to back the program and impact its future.</td>
+              </tr>
+              <tr>
+                <td width="18" valign="top" style="font-family:'Inter',Arial,sans-serif;font-size:14px;line-height:1.6;color:#ffffff;">&bull;</td>
+                <td style="font-family:'Inter',Arial,sans-serif;font-size:14px;line-height:1.6;color:#ffffff;padding-bottom:8px;">Exclusive access to four private meetings during the season with players and coaches, over a complimentary meal.</td>
+              </tr>
+              <tr>
+                <td width="18" valign="top" style="font-family:'Inter',Arial,sans-serif;font-size:14px;line-height:1.6;color:#ffffff;">&bull;</td>
+                <td style="font-family:'Inter',Arial,sans-serif;font-size:14px;line-height:1.6;color:#ffffff;">Memberships begin as low as $1,000.</td>
+              </tr>
+            </table>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin:0 0 20px 0;">
+              <tr>
+                <td style="line-height:0;font-size:0;">
+                  <a href="https://example.invalid/REFERENCE_LINK"><img src="assets/dugout-2027.jpeg" alt="Dugout Club 2027" width="598" class="fluid-img" style="width:100%;max-width:598px;height:auto;display:block;border-radius:8px;" /></a>
+                </td>
+              </tr>
+            </table>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td align="center" bgcolor="#500000" style="background-color:#500000;border-radius:8px;">
+                  <a href="https://example.invalid/REFERENCE_LINK" class="dm-appcta" style="display:block;font-family:'Inter',Arial,sans-serif;font-size:15px;font-weight:700;color:#ffffff;text-decoration:none;padding:14px 20px;text-align:center;">Join the Dugout Club</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr><td class="dm-body" height="14" style="font-size:0;line-height:0;mso-line-height-rule:exactly;" bgcolor="#ffffff">&nbsp;</td></tr>
+
+        <!-- ===================== DAILY SWAP: UPCOMING SCHEDULE ===================== -->
+        <tr>
+          <td bgcolor="#ffffff" style="background-color:#ffffff;border:1px solid #e0e0e0;border-radius:12px;padding:26px 36px;" class="section-pad dm-card">
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin-bottom:14px;">
+              <tr>
+                <td class="dm-label" style="font-family:'Inter',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#500000;">Upcoming Schedule</td>
+              </tr>
+            </table>
+            <!-- Schedule intro line REMOVED PERMANENTLY per Taylor, 2026-09-09. Do not reinstate. -->
+            <p style="font-family:'Inter',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#500000;margin:0 0 8px 0;padding-top:0;">Monday, October 19</p>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td valign="top" style="font-family:'Inter',Arial,sans-serif;padding:0 8px 12px 0;">
+                  <p style="font-size:13px;font-weight:700;color:#1a1a1a;margin:0 0 2px 0;">Men&#8217;s Golf at Abilene Christian Intercollegiate</p>
+                  <p style="font-size:11.5px;color:#666666;margin:0;">TBA &middot; Granbury, Texas</p>
+                </td>
+                <td valign="top" align="right" width="80" style="white-space:nowrap;padding-top:1px;"></td>
+              </tr>
+            </table>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td valign="top" style="font-family:'Inter',Arial,sans-serif;padding:0 8px 12px 0;">
+                  <p style="font-size:13px;font-weight:700;color:#1a1a1a;margin:0 0 2px 0;">Women&#8217;s Golf at The Fin</p>
+                  <p style="font-size:11.5px;color:#666666;margin:0;">TBA &middot; Fairfield, Texas</p>
+                </td>
+                <td valign="top" align="right" width="80" style="white-space:nowrap;padding-top:1px;"></td>
+              </tr>
+            </table>
+            <p class="dm-hr" style="font-family:'Inter',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#500000;margin:14px 0 8px 0;padding-top:14px;border-top:1px solid #f0f0f0;">Thursday, October 22</p>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td valign="top" style="font-family:'Inter',Arial,sans-serif;padding:0 8px 12px 0;">
+                  <p style="font-size:13px;font-weight:700;color:#1a1a1a;margin:0 0 2px 0;">Softball vs. McLennan CC <span style="font-size:9.5px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#500000;background-color:#f0e8e8;border-radius:2px;padding:1px 5px;margin-left:5px;">Home</span></p>
+                  <p style="font-size:11.5px;color:#666666;margin:0;">6:00 PM &middot; Davis Diamond, College Station</p>
+                </td>
+                <td valign="top" align="right" width="80" style="white-space:nowrap;padding-top:1px;"></td>
+              </tr>
+            </table>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td valign="top" style="font-family:'Inter',Arial,sans-serif;padding:0 8px 12px 0;">
+                  <p style="font-size:13px;font-weight:700;color:#1a1a1a;margin:0 0 2px 0;">Soccer at Missouri</p>
+                  <p style="font-size:11.5px;color:#666666;margin:0;">8:00 PM &middot; Columbia, Mo. &middot; SEC Network</p>
+                </td>
+                <td valign="top" align="right" width="80" style="white-space:nowrap;padding-top:1px;"></td>
+              </tr>
+            </table>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td valign="top" style="font-family:'Inter',Arial,sans-serif;padding:0 8px 12px 0;">
+                  <p style="font-size:13px;font-weight:700;color:#1a1a1a;margin:0 0 2px 0;">Women&#8217;s Tennis at TCU JAE Foundation Battle</p>
+                  <p style="font-size:11.5px;color:#666666;margin:0;">TBA &middot; Fort Worth, Texas</p>
+                </td>
+                <td valign="top" align="right" width="80" style="white-space:nowrap;padding-top:1px;"></td>
+              </tr>
+            </table>
+            <p class="dm-hr" style="font-family:'Inter',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#500000;margin:14px 0 8px 0;padding-top:14px;border-top:1px solid #f0f0f0;">Friday, October 23</p>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td valign="top" style="font-family:'Inter',Arial,sans-serif;padding:0 8px 12px 0;">
+                  <p style="font-size:13px;font-weight:700;color:#1a1a1a;margin:0 0 2px 0;">Equestrian at (#3) Auburn</p>
+                  <p style="font-size:11.5px;color:#666666;margin:0;">3:00 PM &middot; Auburn, Ala.</p>
+                </td>
+                <td valign="top" align="right" width="80" style="white-space:nowrap;padding-top:1px;"></td>
+              </tr>
+            </table>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td valign="top" style="font-family:'Inter',Arial,sans-serif;padding:0 8px 12px 0;">
+                  <p style="font-size:13px;font-weight:700;color:#1a1a1a;margin:0 0 2px 0;">Swimming &amp; Diving at LSU</p>
+                  <p style="font-size:11.5px;color:#666666;margin:0;">5:00 PM &middot; Baton Rouge, La.</p>
+                </td>
+                <td valign="top" align="right" width="80" style="white-space:nowrap;padding-top:1px;"></td>
+              </tr>
+            </table>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td valign="top" style="font-family:'Inter',Arial,sans-serif;padding:0 8px 12px 0;">
+                  <p style="font-size:13px;font-weight:700;color:#1a1a1a;margin:0 0 2px 0;">Volleyball at Georgia</p>
+                  <p style="font-size:11.5px;color:#666666;margin:0;">6:00 PM &middot; Athens, Ga. &middot; SEC Network</p>
+                </td>
+                <td valign="top" align="right" width="80" style="white-space:nowrap;padding-top:1px;"></td>
+              </tr>
+            </table>
+            <p class="dm-hr" style="font-family:'Inter',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#500000;margin:14px 0 8px 0;padding-top:14px;border-top:1px solid #f0f0f0;">Saturday, October 24</p>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td valign="top" style="font-family:'Inter',Arial,sans-serif;padding:0 8px 12px 0;">
+                  <p style="font-size:13px;font-weight:700;color:#1a1a1a;margin:0 0 2px 0;">Football at (#13) Alabama</p>
+                  <p style="font-size:11.5px;color:#666666;margin:0;">2:30 PM &middot; Tuscaloosa, Ala. &middot; ABC</p>
+                </td>
+                <td valign="top" align="right" width="80" style="white-space:nowrap;padding-top:1px;"></td>
+              </tr>
+            </table>
+            <p class="dm-hr" style="font-family:'Inter',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#500000;margin:14px 0 8px 0;padding-top:14px;border-top:1px solid #f0f0f0;">Sunday, October 25</p>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td valign="top" style="font-family:'Inter',Arial,sans-serif;padding:0 8px 12px 0;">
+                  <p style="font-size:13px;font-weight:700;color:#1a1a1a;margin:0 0 2px 0;">Volleyball at (#4) Kentucky</p>
+                  <p style="font-size:11.5px;color:#666666;margin:0;">12:00 PM &middot; Lexington, Ky. &middot; ABC</p>
+                </td>
+                <td valign="top" align="right" width="80" style="white-space:nowrap;padding-top:1px;"></td>
+              </tr>
+            </table>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td valign="top" style="font-family:'Inter',Arial,sans-serif;padding:0 8px 12px 0;">
+                  <p style="font-size:13px;font-weight:700;color:#1a1a1a;margin:0 0 2px 0;">Men&#8217;s Basketball at SMU</p>
+                  <p style="font-size:11.5px;color:#666666;margin:0;">1:00 PM &middot; Dallas, Texas</p>
+                </td>
+                <td valign="top" align="right" width="80" style="white-space:nowrap;padding-top:1px;"></td>
+              </tr>
+            </table>
+            <p class="dm-hr" style="font-family:'Inter',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#500000;margin:14px 0 8px 0;padding-top:14px;border-top:1px solid #f0f0f0;">Monday, October 26</p>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td valign="top" style="font-family:'Inter',Arial,sans-serif;padding:0 8px 12px 0;">
+                  <p style="font-size:13px;font-weight:700;color:#1a1a1a;margin:0 0 2px 0;">Women&#8217;s Golf at Nanea Invitational</p>
+                  <p style="font-size:11.5px;color:#666666;margin:0;">TBA &middot; Kailua-Kona, Hawai&#8217;i</p>
+                </td>
+                <td valign="top" align="right" width="80" style="white-space:nowrap;padding-top:1px;"></td>
+              </tr>
+            </table>
+            <p class="dm-hr" style="font-family:'Inter',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#500000;margin:14px 0 8px 0;padding-top:14px;border-top:1px solid #f0f0f0;">Thursday, October 29</p>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td valign="top" style="font-family:'Inter',Arial,sans-serif;padding:0 8px 12px 0;">
+                  <p style="font-size:13px;font-weight:700;color:#1a1a1a;margin:0 0 2px 0;">Equestrian vs. SMU <span style="font-size:9.5px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#500000;background-color:#f0e8e8;border-radius:2px;padding:1px 5px;margin-left:5px;">Home</span></p>
+                  <p style="font-size:11.5px;color:#666666;margin:0;">11:30 AM &middot; Hildebrand Equine Complex, College Station</p>
+                </td>
+                <td valign="top" align="right" width="80" style="white-space:nowrap;padding-top:1px;"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr><td class="dm-body" height="24" style="font-size:0;line-height:0;mso-line-height-rule:exactly;" bgcolor="#ffffff">&nbsp;</td></tr>
+
+        <!-- ===================== STATIC: FOOTER / COMPLIANCE =====================
+             Physical mailing address + preferences/unsubscribe (CAN-SPAM).
+             NOTE: the preferences link ends in "elq_cid=" — Eloqua must append the
+             contact-ID field merge after the "=" so the page identifies the subscriber.
+             https://static.12thman.com/aggieam/aggie-am-october-19-2026.html = the hosted URL of that day's edition (daily swap). -->
+        <tr>
+          <td style="padding:8px 36px 8px;text-align:center;font-family:'Inter',Arial,sans-serif;font-size:11px;line-height:1.6;color:#999999;" class="section-pad dm-foot">
+            <p style="margin:0 0 12px 0;"><a href="https://example.invalid/REFERENCE_LINK" style="color:#999999;text-decoration:underline;">View this email in your browser</a></p>
+            <p style="margin:0 0 12px 0;">To manage which communications you would like to receive, or to unsubscribe, <a href="https://example.invalid/REFERENCE_LINK" style="color:#999999;text-decoration:underline;">please click here</a>.</p>
+            <p style="margin:0 0 14px 0;">Please note that by unsubscribing you are opting out of ALL email communications from Texas A&amp;M Athletics. To stop receiving the Aggie AM, <a href="https://example.invalid/REFERENCE_LINK" style="color:#999999;text-decoration:underline;">click here</a>, and uncheck the Aggie AM box.</p>
+            <p style="margin:0 0 2px 0;color:#777777;font-weight:600;">Texas A&amp;M Athletics</p>
+            <p style="margin:0;">756 Houston Street<br />College Station, TX 77843<br />(888) 992-4443</p>
+          </td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+
+
+
+
+</body></html>
