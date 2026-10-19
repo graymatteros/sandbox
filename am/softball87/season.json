@@ -1,0 +1,450 @@
+[
+  {
+    "date": "1987-03-01",
+    "opponent": "UT-Arlington",
+    "result": "W, 2-0",
+    "site": "Lafayette, La.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-01",
+    "opponent": "Louisiana Lafayette",
+    "result": "W, 4-0",
+    "site": "Lafayette, La.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-06",
+    "opponent": "Baylor",
+    "result": "W, 9-2",
+    "site": "College Station",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-06",
+    "opponent": "South Carolina",
+    "result": "W, 2-1",
+    "site": "College Station",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-06",
+    "opponent": "Oklahoma State",
+    "result": "W, 3-0",
+    "site": "College Station",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-07",
+    "opponent": "Louisiana Tech",
+    "result": "L, 0-4",
+    "site": "College Station",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-07",
+    "opponent": "Cal State Fullerton",
+    "result": "L, 0-5",
+    "site": "College Station",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-07",
+    "opponent": "Sam Houston State",
+    "result": "W, 1-0",
+    "site": "College Station",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-11",
+    "opponent": "Creighton",
+    "result": "W, 6-2",
+    "site": "Norman, Okla.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-11",
+    "opponent": "Creighton",
+    "result": "W, 1-0",
+    "site": "Norman, Okla.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-12",
+    "opponent": "Northern Illinois",
+    "result": "W, 2-0",
+    "site": "Norman, Okla.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-12",
+    "opponent": "Baylor",
+    "result": "W, 15-1",
+    "site": "Norman, Okla.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-12",
+    "opponent": "Oklahoma State",
+    "result": "W, 3-0",
+    "site": "Norman, Okla.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-13",
+    "opponent": "Central Michigan",
+    "result": "W, 4-2",
+    "site": "Norman, Okla.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-13",
+    "opponent": "Northeast Louisiana",
+    "result": "W, 8-0",
+    "site": "Norman, Okla.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-14",
+    "opponent": "Illinois State",
+    "result": "W, 2-0",
+    "site": "Norman, Okla.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-14",
+    "opponent": "Central Michigan",
+    "result": "W, 6-1",
+    "site": "Norman, Okla.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-14",
+    "opponent": "New Mexico",
+    "result": "W, 5-0",
+    "site": "Norman, Okla.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-17",
+    "opponent": "Kansas",
+    "result": "W, 5-0",
+    "site": "Lake Jackson, Texas",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-17",
+    "opponent": "Kansas",
+    "result": "W, 10-3",
+    "site": "Lake Jackson, Texas",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-18",
+    "opponent": "Indiana",
+    "result": "W, 2-1",
+    "site": "Houston, Texas",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-19",
+    "opponent": "Colorado State",
+    "result": "W, 6-4",
+    "site": "Houston, Texas",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-19",
+    "opponent": "Baylor",
+    "result": "W, 6-0",
+    "site": "Houston, Texas",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-19",
+    "opponent": "Kansas",
+    "result": "W, 7-1",
+    "site": "Houston, Texas",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-20",
+    "opponent": "UT-Arlington",
+    "result": "W, 4-0",
+    "site": "Houston, Texas",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-20",
+    "opponent": "Oklahoma City Univ.",
+    "result": "W, 7-0",
+    "site": "Houston, Texas",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-21",
+    "opponent": "Arizona State",
+    "result": "W, 9-1",
+    "site": "Houston, Texas",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-21",
+    "opponent": "Nebraska",
+    "result": "W, 1-0",
+    "site": "Houston, Texas",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-23",
+    "opponent": "Nebraska",
+    "result": "L, 2-3",
+    "site": "College Station",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-23",
+    "opponent": "Nebraska",
+    "result": "W, 2-1",
+    "site": "College Station",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-26",
+    "opponent": "Cal Poly Pomona",
+    "result": "W, 3-0",
+    "site": "Fullerton, Calif.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-27",
+    "opponent": "Michigan",
+    "result": "W, 5-1",
+    "site": "Fullerton, Calif.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-27",
+    "opponent": "San Diego State",
+    "result": "W, 7-2",
+    "site": "Fullerton, Calif.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-28",
+    "opponent": "Arizona",
+    "result": "L, 0-1",
+    "site": "Fullerton, Calif.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-31",
+    "opponent": "UT-Arlington",
+    "result": "W, 2-0",
+    "site": "College Station",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-03-31",
+    "opponent": "UT-Arlington",
+    "result": "W, 1-0",
+    "site": "College Station",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-04-02",
+    "opponent": "Utah State",
+    "result": "L, 0-1",
+    "site": "College Station",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-04-04",
+    "opponent": "Utah State",
+    "result": "L, 1-2",
+    "site": "College Station",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-04-04",
+    "opponent": "Utah State",
+    "result": "W, 2-0",
+    "site": "College Station",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-04-07",
+    "opponent": "Texas State",
+    "result": "W, 5-0",
+    "site": "College Station",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-04-07",
+    "opponent": "Texas State",
+    "result": "W, 2-0",
+    "site": "College Station",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-04-16",
+    "opponent": "Sam Houston State",
+    "result": "W, 6-0",
+    "site": "Huntsville, Texas",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-04-16",
+    "opponent": "Sam Houston State",
+    "result": "W, 7-0",
+    "site": "Huntsville, Texas",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-04-18",
+    "opponent": "Louisiana-Monroe",
+    "result": "W, 4-0",
+    "site": "Monroe, La.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-04-18",
+    "opponent": "Louisiana-Monroe",
+    "result": "W, 3-0",
+    "site": "Monroe, La.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-04-19",
+    "opponent": "Louisiana Tech",
+    "result": "W, 7-1",
+    "site": "Ruston, La.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-04-19",
+    "opponent": "Louisiana Tech",
+    "result": "L, 4-6",
+    "site": "Ruston, La.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-04-24",
+    "opponent": "Arizona",
+    "result": "W, 9-3",
+    "site": "Albuquerque, N.M.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-04-24",
+    "opponent": "Arizona State",
+    "result": "W, 5-4",
+    "site": "Albuquerque, N.M.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-04-25",
+    "opponent": "New Mexico",
+    "result": "W, 9-4",
+    "site": "Albuquerque, N.M.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-04-25",
+    "opponent": "New Mexico",
+    "result": "W, 3-0",
+    "site": "Albuquerque, N.M.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-04-26",
+    "opponent": "USF",
+    "result": "W, 7-2",
+    "site": "Albuquerque, N.M.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-04-26",
+    "opponent": "New Mexico State",
+    "result": "W, 1-0",
+    "site": "Albuquerque, N.M.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-04-29",
+    "opponent": "Baylor",
+    "result": "W, 8-0",
+    "site": "Waco, Texas",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-04-29",
+    "opponent": "Baylor",
+    "result": "W, 4-1",
+    "site": "Waco, Texas",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-05-05",
+    "opponent": "Sam Houston State",
+    "result": "W, 2-0",
+    "site": "College Station",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-05-15",
+    "opponent": "Louisiana Tech",
+    "result": "W, 4-0",
+    "site": "College Station",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-05-16",
+    "opponent": "Louisiana Tech",
+    "result": "W, 2-1",
+    "site": "College Station",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-05-21",
+    "opponent": "Central Michigan",
+    "result": "W, 3-0",
+    "site": "Omaha, Neb.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-05-22",
+    "opponent": "Cal State Fullerton",
+    "result": "W, 2-1",
+    "site": "Omaha, Neb.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-05-23",
+    "opponent": "Nebraska",
+    "result": "W, 4-0",
+    "site": "Omaha, Neb.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-05-23",
+    "opponent": "UCLA",
+    "result": "L, 0-1",
+    "site": "Omaha, Neb.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-05-24",
+    "opponent": "UCLA",
+    "result": "W, 4-1",
+    "site": "Omaha, Neb.",
+    "source": "schedule"
+  },
+  {
+    "date": "1987-05-24",
+    "opponent": "UCLA",
+    "result": "W, 1-0",
+    "site": "Omaha, Neb.",
+    "source": "schedule"
+  }
+]
